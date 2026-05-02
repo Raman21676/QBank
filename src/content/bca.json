@@ -19,9 +19,30 @@
           "name": "Computer Fundamentals & Applications",
           "slug": "computer-fundamentals",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -29,9 +50,30 @@
           "name": "Society & Technology",
           "slug": "society-technology",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -39,9 +81,30 @@
           "name": "English I",
           "slug": "english-i",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -49,9 +112,30 @@
           "name": "Mathematics I",
           "slug": "mathematics-i",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -59,9 +143,30 @@
           "name": "Digital Logic",
           "slug": "digital-logic",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         }
       ]
@@ -76,10 +181,38 @@
           "name": "C Programming",
           "slug": "c-programming",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -87,10 +220,38 @@
           "name": "Financial Accounting",
           "slug": "financial-accounting",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -98,10 +259,38 @@
           "name": "English II",
           "slug": "english-ii",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -109,10 +298,38 @@
           "name": "Mathematics II",
           "slug": "mathematics-ii",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -120,10 +337,38 @@
           "name": "Microprocessor & Computer Architecture",
           "slug": "microprocessor-architecture",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         }
       ]
@@ -138,12 +383,54 @@
           "name": "Data Structures & Algorithms",
           "slug": "data-structures-algorithms",
           "papers": [
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2019,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -151,12 +438,54 @@
           "name": "Probability & Statistics",
           "slug": "probability-statistics",
           "papers": [
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2019,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -164,12 +493,54 @@
           "name": "System Analysis & Design",
           "slug": "system-analysis-design",
           "papers": [
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2019,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -177,12 +548,54 @@
           "name": "OOP in Java",
           "slug": "oop-java",
           "papers": [
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2019,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -190,12 +603,54 @@
           "name": "Web Technology",
           "slug": "web-technology",
           "papers": [
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2019,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": true,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         }
       ]
@@ -210,13 +665,62 @@
           "name": "Operating Systems",
           "slug": "operating-systems",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": true,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -224,13 +728,62 @@
           "name": "Numerical Methods",
           "slug": "numerical-methods",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": true,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -238,13 +791,62 @@
           "name": "Software Engineering",
           "slug": "software-engineering",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": true,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -252,13 +854,62 @@
           "name": "Scripting Language",
           "slug": "scripting-language",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": true,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -266,13 +917,62 @@
           "name": "Database Management System",
           "slug": "database-management-system",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": true,
+              "hasAnswers": true,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         }
       ]
@@ -287,13 +987,62 @@
           "name": "MIS & E-Business",
           "slug": "mis-ebusiness",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -301,13 +1050,62 @@
           "name": "DotNet Technology",
           "slug": "dotnet-technology",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -315,13 +1113,62 @@
           "name": "Computer Networking",
           "slug": "computer-networking",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -329,13 +1176,62 @@
           "name": "Computer Graphics & Animation",
           "slug": "computer-graphics",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -343,13 +1239,62 @@
           "name": "Java Programming - II",
           "slug": "java-programming-ii",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         }
       ]
@@ -364,13 +1309,62 @@
           "name": "Network Programming",
           "slug": "network-programming",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -378,13 +1372,62 @@
           "name": "Mobile Programming",
           "slug": "mobile-programming",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -392,13 +1435,62 @@
           "name": "Distributed Systems",
           "slug": "distributed-systems",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -406,13 +1498,62 @@
           "name": "Applied Economics",
           "slug": "applied-economics",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -420,13 +1561,62 @@
           "name": "Project II",
           "slug": "project-ii",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         }
       ]
@@ -441,13 +1631,62 @@
           "name": "Advanced Java Programming",
           "slug": "advanced-java",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -455,13 +1694,62 @@
           "name": "Data Warehousing & Data Mining",
           "slug": "data-warehousing-mining",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -469,13 +1757,62 @@
           "name": "Cloud Computing",
           "slug": "cloud-computing",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         },
         {
@@ -483,13 +1820,62 @@
           "name": "Cyber Law",
           "slug": "cyber-law",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
           ]
         }
       ]
@@ -504,13 +1890,62 @@
           "name": "Project Work",
           "slug": "project-work",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            }
           ]
         },
         {
@@ -518,13 +1953,62 @@
           "name": "Internship",
           "slug": "internship",
           "papers": [
-            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
-            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
-            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
-            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
-            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
-            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
-            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" }
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            }
           ]
         }
       ]
