@@ -36,6 +36,10 @@ TODO.md
 PLAN.md
 NOTES.md
 
+# Generated files (built at prebuild)
+public/sitemap.xml
+public/robots.txt
+
 # PDF assets (exam papers should not be committed to public repo)
 # Add them via GitHub Releases or external hosting instead
 public/pdfs/

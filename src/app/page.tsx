@@ -5,45 +5,7 @@ import { BookOpen, GraduationCap, FileText, Download, ArrowRight } from "lucide-
 import Link from "next/link";
 import { FacultyCard } from "@/components/FacultyCard";
 import { StatsSection } from "@/components/StatsSection";
-
-const faculties = [
-  {
-    id: "bca",
-    name: "BCA",
-    fullName: "Bachelor of Computer Applications",
-    description: "8 semesters of programming, algorithms, databases, web tech, and more.",
-    icon: BookOpen,
-    color: "from-sky-400 to-sky-500",
-    bgGlow: "bg-sky-100/50",
-    semesters: 8,
-    papers: 120,
-    href: "/bca/",
-  },
-  {
-    id: "ba",
-    name: "BA",
-    fullName: "Bachelor of Arts",
-    description: "Humanities and social sciences — English, Economics, Political Science, History, and more.",
-    icon: GraduationCap,
-    color: "from-leaf-400 to-leaf-500",
-    bgGlow: "bg-leaf-100/50",
-    semesters: 4,
-    papers: 80,
-    href: "/ba/",
-  },
-  {
-    id: "bit",
-    name: "BIT",
-    fullName: "Bachelor of Information Technology",
-    description: "Core IT skills, networking, cybersecurity, cloud computing, and software engineering.",
-    icon: FileText,
-    color: "from-teal-400 to-teal-500",
-    bgGlow: "bg-teal-100/50",
-    semesters: 8,
-    papers: 100,
-    href: "/bit/",
-  },
-];
+import { faculties } from "@/lib/data";
 
 export default function HomePage() {
   return (

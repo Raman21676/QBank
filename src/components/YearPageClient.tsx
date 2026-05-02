@@ -10,20 +10,23 @@ import {
   Calendar,
   Clock,
   Award,
+  Lock,
 } from "lucide-react";
-import type { Semester, Subject } from "@/lib/data";
+import type { FacultyManifest, Semester, Subject, Paper } from "@/lib/data";
 
 export function YearPageClient({
+  faculty,
   semester,
   subject,
-  year,
+  paper,
 }: {
+  faculty: FacultyManifest;
   semester: Semester;
   subject: Subject;
-  year: number;
+  paper: Paper;
 }) {
-  const questionPdf = `/pdfs/bca/${semester.slug}/${subject.slug}/questions/${subject.code}-${year}.pdf`;
-  const answerPdf = `/pdfs/bca/${semester.slug}/${subject.slug}/answers/${subject.code}-${year}-answers.pdf`;
+  const questionPdf = `/pdfs/${faculty.slug}/${semester.slug}/${subject.slug}/questions/${subject.code}-${paper.year}.pdf`;
+  const answerPdf = `/pdfs/${faculty.slug}/${semester.slug}/${subject.slug}/answers/${subject.code}-${paper.year}-answers.pdf`;
 
   return (
     <>
@@ -34,7 +37,7 @@ export function YearPageClient({
         className="mb-8"
       >
         <Link
-          href={`/bca/${semester.slug}/${subject.slug}/`}
+          href={`/${faculty.slug}/${semester.slug}/${subject.slug}/`}
           className="inline-flex items-center gap-1 text-sm text-slate-400 hover:text-sky-600 transition-colors"
         >
           <ArrowLeft className="w-4 h-4" />
@@ -57,15 +60,15 @@ export function YearPageClient({
             <div className="flex flex-wrap items-center gap-3 mb-6">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-50 text-sky-600 text-xs font-semibold">
                 <Calendar className="w-3.5 h-3.5" />
-                {year}
+                {paper.year}
               </span>
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-50 text-slate-500 text-xs font-medium">
                 <Clock className="w-3.5 h-3.5" />
-                3 Hours
+                {paper.duration || "3 Hours"}
               </span>
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-50 text-slate-500 text-xs font-medium">
                 <Award className="w-3.5 h-3.5" />
-                FM: 60 | PM: 24
+                FM: {paper.fm || 60} | PM: {paper.pm || 24}
               </span>
             </div>
 
@@ -74,7 +77,7 @@ export function YearPageClient({
               {subject.name}
             </h1>
             <p className="text-sm font-mono text-slate-400 mb-6">
-              {subject.code} &middot; {semester.name} &middot; Tribhuvan University
+              {subject.code} &middot; {semester.name} &middot; Tribhuvan University &middot; {faculty.shortName}
             </p>
 
             {/* Description */}
@@ -87,43 +90,75 @@ export function YearPageClient({
 
             {/* Download Buttons */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <a
-                href={questionPdf}
-                download
-                className="group flex items-center gap-4 p-5 rounded-2xl bg-sky-50 border border-sky-100 hover:bg-sky-100 hover:border-sky-200 transition-all duration-200"
-              >
-                <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-white text-sky-500 shadow-sm">
-                  <FileText className="w-6 h-6" />
+              {paper.hasQuestions ? (
+                <a
+                  href={questionPdf}
+                  download
+                  className="group flex items-center gap-4 p-5 rounded-2xl bg-sky-50 border border-sky-100 hover:bg-sky-100 hover:border-sky-200 transition-all duration-200"
+                >
+                  <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-white text-sky-500 shadow-sm">
+                    <FileText className="w-6 h-6" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-sm font-semibold text-slate-800">
+                      Question Paper
+                    </h3>
+                    <p className="text-xs text-slate-400 mt-0.5">
+                      PDF &middot; Past exam questions
+                    </p>
+                  </div>
+                  <Download className="w-5 h-5 text-sky-400 group-hover:text-sky-600 group-hover:translate-y-0.5 transition-all" />
+                </a>
+              ) : (
+                <div className="flex items-center gap-4 p-5 rounded-2xl bg-slate-50 border border-slate-100 opacity-70">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-white text-slate-400 shadow-sm">
+                    <Lock className="w-6 h-6" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-sm font-semibold text-slate-600">
+                      Question Paper
+                    </h3>
+                    <p className="text-xs text-slate-400 mt-0.5">
+                      Coming soon
+                    </p>
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-sm font-semibold text-slate-800">
-                    Question Paper
-                  </h3>
-                  <p className="text-xs text-slate-400 mt-0.5">
-                    PDF &middot; Past exam questions
-                  </p>
-                </div>
-                <Download className="w-5 h-5 text-sky-400 group-hover:text-sky-600 group-hover:translate-y-0.5 transition-all" />
-              </a>
+              )}
 
-              <a
-                href={answerPdf}
-                download
-                className="group flex items-center gap-4 p-5 rounded-2xl bg-leaf-50 border border-leaf-100 hover:bg-leaf-100 hover:border-leaf-200 transition-all duration-200"
-              >
-                <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-white text-leaf-500 shadow-sm">
-                  <CheckCircle className="w-6 h-6" />
+              {paper.hasAnswers ? (
+                <a
+                  href={answerPdf}
+                  download
+                  className="group flex items-center gap-4 p-5 rounded-2xl bg-leaf-50 border border-leaf-100 hover:bg-leaf-100 hover:border-leaf-200 transition-all duration-200"
+                >
+                  <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-white text-leaf-500 shadow-sm">
+                    <CheckCircle className="w-6 h-6" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-sm font-semibold text-slate-800">
+                      Answer Sheet
+                    </h3>
+                    <p className="text-xs text-slate-400 mt-0.5">
+                      PDF &middot; With solutions & diagrams
+                    </p>
+                  </div>
+                  <Download className="w-5 h-5 text-leaf-400 group-hover:text-leaf-600 group-hover:translate-y-0.5 transition-all" />
+                </a>
+              ) : (
+                <div className="flex items-center gap-4 p-5 rounded-2xl bg-slate-50 border border-slate-100 opacity-70">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-white text-slate-400 shadow-sm">
+                    <Lock className="w-6 h-6" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-sm font-semibold text-slate-600">
+                      Answer Sheet
+                    </h3>
+                    <p className="text-xs text-slate-400 mt-0.5">
+                      Coming soon
+                    </p>
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-sm font-semibold text-slate-800">
-                    Answer Sheet
-                  </h3>
-                  <p className="text-xs text-slate-400 mt-0.5">
-                    PDF &middot; With solutions & diagrams
-                  </p>
-                </div>
-                <Download className="w-5 h-5 text-leaf-400 group-hover:text-leaf-600 group-hover:translate-y-0.5 transition-all" />
-              </a>
+              )}
             </div>
           </div>
         </div>

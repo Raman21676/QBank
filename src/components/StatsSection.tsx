@@ -1,16 +1,24 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FileText, Download, BookOpen, Users } from "lucide-react";
-
-const stats = [
-  { icon: BookOpen, value: "3", label: "Faculties" },
-  { icon: FileText, value: "300+", label: "Question Papers" },
-  { icon: Download, value: "600+", label: "PDF Downloads" },
-  { icon: Users, value: "20+", label: "Subjects Covered" },
-];
+import { FileText, Download, BookOpen, Layers } from "lucide-react";
+import { faculties, getTotalPaperCount } from "@/lib/data";
 
 export function StatsSection() {
+  const totalSemesters = faculties.reduce((acc, f) => acc + f.totalSemesters, 0);
+  const totalPapers = getTotalPaperCount();
+  const totalSubjects = faculties.reduce(
+    (acc, f) => acc + f.semesters.reduce((sacc, s) => sacc + s.subjects.length, 0),
+    0
+  );
+
+  const stats = [
+    { icon: BookOpen, value: String(faculties.length), label: "Faculties" },
+    { icon: Layers, value: String(totalSemesters), label: "Semesters" },
+    { icon: FileText, value: String(totalSubjects), label: "Subjects" },
+    { icon: Download, value: String(totalPapers), label: "Paper Slots" },
+  ];
+
   return (
     <section className="relative py-12 px-6">
       <div className="mx-auto max-w-5xl">

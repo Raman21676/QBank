@@ -1,0 +1,321 @@
+{
+  "id": "ba",
+  "name": "Bachelor of Arts",
+  "shortName": "BA",
+  "slug": "ba",
+  "icon": "GraduationCap",
+  "description": "Humanities and social sciences — English, Economics, Political Science, History, Sociology, and more.",
+  "totalSemesters": 4,
+  "color": "from-leaf-400 to-leaf-500",
+  "bgGlow": "bg-leaf-100/50",
+  "semesters": [
+    {
+      "number": 1,
+      "name": "First Semester",
+      "slug": "semester-1",
+      "subjects": [
+        {
+          "code": "ENG101",
+          "name": "English I",
+          "slug": "english-i",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "NEP101",
+          "name": "Nepali I",
+          "slug": "nepali-i",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "ECO101",
+          "name": "Microeconomics",
+          "slug": "microeconomics",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "POL101",
+          "name": "Political Science I",
+          "slug": "political-science-i",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "SOC101",
+          "name": "Sociology I",
+          "slug": "sociology-i",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Second Semester",
+      "slug": "semester-2",
+      "subjects": [
+        {
+          "code": "ENG102",
+          "name": "English II",
+          "slug": "english-ii",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "NEP102",
+          "name": "Nepali II",
+          "slug": "nepali-ii",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "ECO102",
+          "name": "Macroeconomics",
+          "slug": "macroeconomics",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "POL102",
+          "name": "Political Science II",
+          "slug": "political-science-ii",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "SOC102",
+          "name": "Sociology II",
+          "slug": "sociology-ii",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Third Semester",
+      "slug": "semester-3",
+      "subjects": [
+        {
+          "code": "ENG201",
+          "name": "English III",
+          "slug": "english-iii",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "HIS201",
+          "name": "History I",
+          "slug": "history-i",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "PSY201",
+          "name": "Psychology I",
+          "slug": "psychology-i",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "ANT201",
+          "name": "Anthropology I",
+          "slug": "anthropology-i",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "GEO201",
+          "name": "Geography I",
+          "slug": "geography-i",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Fourth Semester",
+      "slug": "semester-4",
+      "subjects": [
+        {
+          "code": "ENG202",
+          "name": "English IV",
+          "slug": "english-iv",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "HIS202",
+          "name": "History II",
+          "slug": "history-ii",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "PSY202",
+          "name": "Psychology II",
+          "slug": "psychology-ii",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "ANT202",
+          "name": "Anthropology II",
+          "slug": "anthropology-ii",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "GEO202",
+          "name": "Geography II",
+          "slug": "geography-ii",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "3 Hours" }
+          ]
+        }
+      ]
+    }
+  ]
+}

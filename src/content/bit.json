@@ -1,0 +1,573 @@
+{
+  "id": "bit",
+  "name": "Bachelor of Information Technology",
+  "shortName": "BIT",
+  "slug": "bit",
+  "icon": "FileText",
+  "description": "Core IT skills, networking, cybersecurity, cloud computing, and software engineering.",
+  "totalSemesters": 8,
+  "color": "from-teal-400 to-teal-500",
+  "bgGlow": "bg-teal-100/50",
+  "semesters": [
+    {
+      "number": 1,
+      "name": "First Semester",
+      "slug": "semester-1",
+      "subjects": [
+        {
+          "code": "BIT101",
+          "name": "Introduction to Information Technology",
+          "slug": "introduction-to-it",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT102",
+          "name": "C Programming",
+          "slug": "c-programming",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT103",
+          "name": "Mathematics I",
+          "slug": "mathematics-i",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT104",
+          "name": "Digital Logic",
+          "slug": "digital-logic",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT105",
+          "name": "Technical Communication",
+          "slug": "technical-communication",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Second Semester",
+      "slug": "semester-2",
+      "subjects": [
+        {
+          "code": "BIT151",
+          "name": "Object Oriented Programming in C++",
+          "slug": "oop-cpp",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT152",
+          "name": "Data Structures & Algorithms",
+          "slug": "data-structures-algorithms",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT153",
+          "name": "Microprocessor & Assembly Language",
+          "slug": "microprocessor-assembly",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT154",
+          "name": "Mathematics II",
+          "slug": "mathematics-ii",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT155",
+          "name": "Web Technology I",
+          "slug": "web-technology-i",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Third Semester",
+      "slug": "semester-3",
+      "subjects": [
+        {
+          "code": "BIT201",
+          "name": "Operating Systems",
+          "slug": "operating-systems",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT202",
+          "name": "Database Management System",
+          "slug": "database-management-system",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT203",
+          "name": "Computer Networks",
+          "slug": "computer-networks",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT204",
+          "name": "Probability & Statistics",
+          "slug": "probability-statistics",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT205",
+          "name": "System Analysis & Design",
+          "slug": "system-analysis-design",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Fourth Semester",
+      "slug": "semester-4",
+      "subjects": [
+        {
+          "code": "BIT251",
+          "name": "Software Engineering",
+          "slug": "software-engineering",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT252",
+          "name": "Object Oriented Programming in Java",
+          "slug": "oop-java",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT253",
+          "name": "Computer Organization & Architecture",
+          "slug": "computer-organization",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT254",
+          "name": "Numerical Methods",
+          "slug": "numerical-methods",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT255",
+          "name": "Web Technology II",
+          "slug": "web-technology-ii",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Fifth Semester",
+      "slug": "semester-5",
+      "subjects": [
+        {
+          "code": "BIT301",
+          "name": "Computer Graphics",
+          "slug": "computer-graphics",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT302",
+          "name": "Data Communication",
+          "slug": "data-communication",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT303",
+          "name": "E-Business",
+          "slug": "e-business",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT304",
+          "name": "Network Security",
+          "slug": "network-security",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT305",
+          "name": "Multimedia Systems",
+          "slug": "multimedia-systems",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Sixth Semester",
+      "slug": "semester-6",
+      "subjects": [
+        {
+          "code": "BIT351",
+          "name": "Artificial Intelligence",
+          "slug": "artificial-intelligence",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT352",
+          "name": "Cloud Computing",
+          "slug": "cloud-computing",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT353",
+          "name": "Internet of Things",
+          "slug": "iot",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT354",
+          "name": "Mobile Application Development",
+          "slug": "mobile-app-dev",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT355",
+          "name": "Project I",
+          "slug": "project-i",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Seventh Semester",
+      "slug": "semester-7",
+      "subjects": [
+        {
+          "code": "BIT401",
+          "name": "Big Data Technologies",
+          "slug": "big-data",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT402",
+          "name": "Machine Learning",
+          "slug": "machine-learning",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT403",
+          "name": "Cybersecurity & Ethical Hacking",
+          "slug": "cybersecurity",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        },
+        {
+          "code": "BIT404",
+          "name": "Blockchain Technology",
+          "slug": "blockchain",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 60, "pm": 24, "duration": "3 Hours" }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Eighth Semester",
+      "slug": "semester-8",
+      "subjects": [
+        {
+          "code": "BIT451",
+          "name": "Project Work",
+          "slug": "project-work",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" }
+          ]
+        },
+        {
+          "code": "BIT452",
+          "name": "Internship",
+          "slug": "internship",
+          "papers": [
+            { "year": 2018, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2019, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2020, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2021, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2022, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2023, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" },
+            { "year": 2024, "hasQuestions": false, "hasAnswers": false, "fm": 100, "pm": 40, "duration": "Varies" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,29 +2,29 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight, BookOpen } from "lucide-react";
+import { ArrowRight, BookOpen, GraduationCap, FileText } from "lucide-react";
+import type { FacultyManifest } from "@/lib/data";
+import { getSubjectCount } from "@/lib/data";
 
-interface Faculty {
-  id: string;
-  name: string;
-  fullName: string;
-  description: string;
-  icon: React.ComponentType<{ className?: string }>;
-  color: string;
-  bgGlow: string;
-  semesters: number;
-  papers: number;
-  href: string;
-}
+const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+  BookOpen,
+  GraduationCap,
+  FileText,
+};
 
 export function FacultyCard({
   faculty,
   index,
 }: {
-  faculty: Faculty;
+  faculty: FacultyManifest;
   index: number;
 }) {
-  const Icon = faculty.icon;
+  const Icon = iconMap[faculty.icon] || BookOpen;
+  const subjectCount = getSubjectCount(faculty.slug);
+  const paperCount = faculty.semesters.reduce(
+    (acc, sem) => acc + sem.subjects.reduce((sacc, sub) => sacc + sub.papers.length, 0),
+    0
+  );
 
   return (
     <motion.div
@@ -34,7 +34,7 @@ export function FacultyCard({
       transition={{ delay: index * 0.1, duration: 0.5 }}
     >
       <Link
-        href={faculty.href}
+        href={`/${faculty.slug}/`}
         className="group relative block h-full"
       >
         <div
@@ -48,10 +48,10 @@ export function FacultyCard({
           </div>
 
           <h3 className="text-2xl font-bold text-slate-800 mb-1">
-            {faculty.name}
+            {faculty.shortName}
           </h3>
           <p className="text-xs text-slate-400 font-medium uppercase tracking-wider mb-4">
-            {faculty.fullName}
+            {faculty.name}
           </p>
           <p className="text-sm text-slate-500 leading-relaxed mb-6">
             {faculty.description}
@@ -59,8 +59,8 @@ export function FacultyCard({
 
           <div className="flex items-center justify-between pt-4 border-t border-slate-100">
             <div className="flex items-center gap-4 text-xs text-slate-400">
-              <span>{faculty.semesters} Semesters</span>
-              <span>{faculty.papers}+ Papers</span>
+              <span>{faculty.totalSemesters} Semesters</span>
+              <span>{paperCount} Papers</span>
             </div>
             <div className="flex items-center gap-1 text-sm font-semibold text-sky-600 group-hover:text-sky-700 transition-colors">
               Browse

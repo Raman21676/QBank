@@ -3,9 +3,15 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, FileText } from "lucide-react";
-import type { Semester } from "@/lib/data";
+import type { FacultyManifest, Semester } from "@/lib/data";
 
-export function SemesterPageClient({ semester }: { semester: Semester }) {
+export function SemesterPageClient({
+  faculty,
+  semester,
+}: {
+  faculty: FacultyManifest;
+  semester: Semester;
+}) {
   return (
     <>
       {/* Breadcrumb */}
@@ -15,11 +21,11 @@ export function SemesterPageClient({ semester }: { semester: Semester }) {
         className="mb-8"
       >
         <Link
-          href="/bca/"
+          href={`/${faculty.slug}/`}
           className="inline-flex items-center gap-1 text-sm text-slate-400 hover:text-sky-600 transition-colors"
         >
           <ArrowLeft className="w-4 h-4" />
-          Back to BCA
+          Back to {faculty.shortName}
         </Link>
       </motion.div>
 
@@ -49,7 +55,7 @@ export function SemesterPageClient({ semester }: { semester: Semester }) {
             transition={{ delay: index * 0.05 }}
           >
             <Link
-              href={`/bca/${semester.slug}/${subject.slug}/`}
+              href={`/${faculty.slug}/${semester.slug}/${subject.slug}/`}
               className="group flex items-center justify-between p-5 rounded-2xl bg-white/80 border border-slate-100 shadow-sm hover:shadow-md hover:border-sky-100 transition-all duration-200"
             >
               <div className="flex items-center gap-4">
@@ -67,7 +73,7 @@ export function SemesterPageClient({ semester }: { semester: Semester }) {
               </div>
               <div className="flex items-center gap-3">
                 <span className="hidden sm:inline-flex items-center gap-1 text-xs text-slate-400 bg-slate-50 px-2.5 py-1 rounded-lg">
-                  {subject.years.length} Years
+                  {subject.papers.length} Years
                 </span>
                 <ArrowRight className="w-5 h-5 text-slate-300 group-hover:text-sky-500 group-hover:translate-x-1 transition-all" />
               </div>
