@@ -44,6 +44,9 @@ public/robots.txt
 # Add them via GitHub Releases or external hosting instead
 public/pdfs/
 
+# AI session logs (private, not for public repo)
+ai-session-logs/
+
 # Temporary files
 *.tmp
 *.temp
