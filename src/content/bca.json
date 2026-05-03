@@ -1194,8 +1194,8 @@
             },
             {
               "year": 2020,
-              "hasQuestions": true,
-              "hasAnswers": true,
+              "hasQuestions": false,
+              "hasAnswers": false,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -1257,8 +1257,8 @@
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
