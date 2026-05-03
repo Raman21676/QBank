@@ -21,8 +21,8 @@
           "papers": [
             {
               "year": 2018,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -37,8 +37,8 @@
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -68,8 +68,8 @@
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -99,8 +99,8 @@
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -114,8 +114,8 @@
           "papers": [
             {
               "year": 2018,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -130,8 +130,8 @@
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -161,8 +161,8 @@
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -208,7 +208,7 @@
             {
               "year": 2021,
               "hasQuestions": true,
-              "hasAnswers": false,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -223,7 +223,7 @@
             {
               "year": 2018,
               "hasQuestions": true,
-              "hasAnswers": false,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -262,7 +262,7 @@
             {
               "year": 2018,
               "hasQuestions": true,
-              "hasAnswers": false,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -301,7 +301,7 @@
             {
               "year": 2018,
               "hasQuestions": true,
-              "hasAnswers": false,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -339,7 +339,7 @@
           "papers": [
             {
               "year": 2018,
-              "hasQuestions": false,
+              "hasQuestions": true,
               "hasAnswers": true,
               "fm": 60,
               "pm": 24,
@@ -386,15 +386,15 @@
             {
               "year": 2019,
               "hasQuestions": false,
-              "hasAnswers": false,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -425,8 +425,8 @@
             },
             {
               "year": 2024,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -480,8 +480,8 @@
             },
             {
               "year": 2024,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -496,15 +496,15 @@
             {
               "year": 2019,
               "hasQuestions": false,
-              "hasAnswers": false,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -535,8 +535,8 @@
             },
             {
               "year": 2024,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -559,7 +559,7 @@
             {
               "year": 2020,
               "hasQuestions": true,
-              "hasAnswers": false,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -590,8 +590,8 @@
             },
             {
               "year": 2024,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -606,15 +606,15 @@
             {
               "year": 2019,
               "hasQuestions": false,
-              "hasAnswers": false,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -645,8 +645,8 @@
             },
             {
               "year": 2024,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -675,8 +675,8 @@
             },
             {
               "year": 2019,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -738,8 +738,8 @@
             },
             {
               "year": 2019,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -801,8 +801,8 @@
             },
             {
               "year": 2019,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -984,7 +984,7 @@
       "subjects": [
         {
           "code": "CACS301",
-          "name": "MIS & E-Business",
+          "name": "MIS and E-Business",
           "slug": "mis-ebusiness",
           "papers": [
             {
@@ -1172,9 +1172,9 @@
           ]
         },
         {
-          "code": "CACS304",
-          "name": "Computer Graphics & Animation",
-          "slug": "computer-graphics",
+          "code": "CAMG304",
+          "name": "Introduction to Management",
+          "slug": "introduction-management",
           "papers": [
             {
               "year": 2018,
@@ -1236,8 +1236,8 @@
         },
         {
           "code": "CACS305",
-          "name": "Java Programming - II",
-          "slug": "java-programming-ii",
+          "name": "Computer Graphics and Animation",
+          "slug": "computer-graphics-animation",
           "papers": [
             {
               "year": 2018,
@@ -1306,69 +1306,6 @@
       "subjects": [
         {
           "code": "CACS351",
-          "name": "Network Programming",
-          "slug": "network-programming",
-          "papers": [
-            {
-              "year": 2018,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            },
-            {
-              "year": 2019,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            },
-            {
-              "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            },
-            {
-              "year": 2021,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            },
-            {
-              "year": 2022,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            },
-            {
-              "year": 2023,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            },
-            {
-              "year": 2024,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            }
-          ]
-        },
-        {
-          "code": "CACS352",
           "name": "Mobile Programming",
           "slug": "mobile-programming",
           "papers": [
@@ -1431,9 +1368,9 @@
           ]
         },
         {
-          "code": "CACS353",
-          "name": "Distributed Systems",
-          "slug": "distributed-systems",
+          "code": "CACS352",
+          "name": "Distributed System",
+          "slug": "distributed-system",
           "papers": [
             {
               "year": 2018,
@@ -1494,7 +1431,7 @@
           ]
         },
         {
-          "code": "CACS354",
+          "code": "CAEC353",
           "name": "Applied Economics",
           "slug": "applied-economics",
           "papers": [
@@ -1557,9 +1494,9 @@
           ]
         },
         {
-          "code": "CACS355",
-          "name": "Project II",
-          "slug": "project-ii",
+          "code": "CACS354",
+          "name": "Advanced Java Programming",
+          "slug": "advanced-java-programming",
           "papers": [
             {
               "year": 2018,
@@ -1618,6 +1555,132 @@
               "duration": "3 Hours"
             }
           ]
+        },
+        {
+          "code": "CACS355",
+          "name": "Network Programming",
+          "slug": "network-programming",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CAPJ356",
+          "name": "Project II",
+          "slug": "project-ii",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            }
+          ]
         }
       ]
     },
@@ -1628,8 +1691,8 @@
       "subjects": [
         {
           "code": "CACS401",
-          "name": "Advanced Java Programming",
-          "slug": "advanced-java",
+          "name": "Cyber Law and Professional Ethics",
+          "slug": "cyber-law-professional-ethics",
           "papers": [
             {
               "year": 2018,
@@ -1691,69 +1754,6 @@
         },
         {
           "code": "CACS402",
-          "name": "Data Warehousing & Data Mining",
-          "slug": "data-warehousing-mining",
-          "papers": [
-            {
-              "year": 2018,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            },
-            {
-              "year": 2019,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            },
-            {
-              "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            },
-            {
-              "year": 2021,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            },
-            {
-              "year": 2022,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            },
-            {
-              "year": 2023,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            },
-            {
-              "year": 2024,
-              "hasQuestions": false,
-              "hasAnswers": false,
-              "fm": 60,
-              "pm": 24,
-              "duration": "3 Hours"
-            }
-          ]
-        },
-        {
-          "code": "CACS403",
           "name": "Cloud Computing",
           "slug": "cloud-computing",
           "papers": [
@@ -1816,9 +1816,639 @@
           ]
         },
         {
-          "code": "CACS404",
-          "name": "Cyber Law",
-          "slug": "cyber-law",
+          "code": "CAIN403",
+          "name": "Internship",
+          "slug": "internship",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 100,
+              "pm": 40,
+              "duration": "Varies"
+            }
+          ]
+        },
+        {
+          "code": "CAPS476",
+          "name": "Applied Psychology",
+          "slug": "applied-psychology",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS477",
+          "name": "Geographical Information System",
+          "slug": "geographical-information-system",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS478",
+          "name": "IT in Banking",
+          "slug": "it-in-banking",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS479",
+          "name": "Hotel Information System",
+          "slug": "hotel-information-system",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CAER480",
+          "name": "Enterprise Resource Planning",
+          "slug": "enterprise-resource-planning",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS482",
+          "name": "Knowledge Engineering",
+          "slug": "knowledge-engineering",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS483",
+          "name": "Advanced DotNet Technology",
+          "slug": "advanced-dotnet-technology",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS484",
+          "name": "Database Programming",
+          "slug": "database-programming",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS485",
+          "name": "Database Administration",
+          "slug": "database-administration",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS486",
+          "name": "Network Administration",
+          "slug": "network-administration",
           "papers": [
             {
               "year": 2018,
@@ -1886,9 +2516,72 @@
       "slug": "semester-8",
       "subjects": [
         {
-          "code": "CACS451",
-          "name": "Project Work",
-          "slug": "project-work",
+          "code": "CAOR451",
+          "name": "Operations Research",
+          "slug": "operations-research",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CAPJ452",
+          "name": "Project III",
+          "slug": "project-iii",
           "papers": [
             {
               "year": 2018,
@@ -1949,65 +2642,632 @@
           ]
         },
         {
-          "code": "CACS452",
-          "name": "Internship",
-          "slug": "internship",
+          "code": "CAPS476",
+          "name": "Applied Psychology",
+          "slug": "applied-psychology",
           "papers": [
             {
               "year": 2018,
               "hasQuestions": false,
               "hasAnswers": false,
-              "fm": 100,
-              "pm": 40,
-              "duration": "Varies"
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
             },
             {
               "year": 2019,
               "hasQuestions": false,
               "hasAnswers": false,
-              "fm": 100,
-              "pm": 40,
-              "duration": "Varies"
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
             },
             {
               "year": 2020,
               "hasQuestions": false,
               "hasAnswers": false,
-              "fm": 100,
-              "pm": 40,
-              "duration": "Varies"
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
             },
             {
               "year": 2021,
               "hasQuestions": false,
               "hasAnswers": false,
-              "fm": 100,
-              "pm": 40,
-              "duration": "Varies"
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
             },
             {
               "year": 2022,
               "hasQuestions": false,
               "hasAnswers": false,
-              "fm": 100,
-              "pm": 40,
-              "duration": "Varies"
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
             },
             {
               "year": 2023,
               "hasQuestions": false,
               "hasAnswers": false,
-              "fm": 100,
-              "pm": 40,
-              "duration": "Varies"
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
             },
             {
               "year": 2024,
               "hasQuestions": false,
               "hasAnswers": false,
-              "fm": 100,
-              "pm": 40,
-              "duration": "Varies"
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS477",
+          "name": "Geographical Information System",
+          "slug": "geographical-information-system",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS478",
+          "name": "IT in Banking",
+          "slug": "it-in-banking",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS479",
+          "name": "Hotel Information System",
+          "slug": "hotel-information-system",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CAER480",
+          "name": "Enterprise Resource Planning",
+          "slug": "enterprise-resource-planning",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS482",
+          "name": "Knowledge Engineering",
+          "slug": "knowledge-engineering",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS483",
+          "name": "Advanced DotNet Technology",
+          "slug": "advanced-dotnet-technology",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS484",
+          "name": "Database Programming",
+          "slug": "database-programming",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS485",
+          "name": "Database Administration",
+          "slug": "database-administration",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            }
+          ]
+        },
+        {
+          "code": "CACS486",
+          "name": "Network Administration",
+          "slug": "network-administration",
+          "papers": [
+            {
+              "year": 2018,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2019,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2020,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2021,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2022,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2023,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
+            },
+            {
+              "year": 2024,
+              "hasQuestions": false,
+              "hasAnswers": false,
+              "fm": 60,
+              "pm": 24,
+              "duration": "3 Hours"
             }
           ]
         }

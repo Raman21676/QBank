@@ -16,7 +16,10 @@ from reportlab.lib.units import cm
 from reportlab.pdfgen import canvas
 from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_RIGHT, TA_JUSTIFY
 
-PDF_BASE = "public/pdfs/bca"
+# Resolve PDF_BASE relative to project root (this script is at src/scripts/)
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
+PDF_BASE = os.path.join(PROJECT_ROOT, "public", "pdfs", "bca")
 
 
 def create_styles():
