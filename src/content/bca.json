@@ -1744,8 +1744,8 @@
             },
             {
               "year": 2024,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -1807,8 +1807,8 @@
             },
             {
               "year": 2024,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -2570,8 +2570,8 @@
             },
             {
               "year": 2024,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
