@@ -52,8 +52,8 @@
           "papers": [
             {
               "year": 2018,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -83,8 +83,8 @@
           "papers": [
             {
               "year": 2018,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -145,8 +145,8 @@
           "papers": [
             {
               "year": 2018,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -385,7 +385,7 @@
           "papers": [
             {
               "year": 2019,
-              "hasQuestions": false,
+              "hasQuestions": true,
               "hasAnswers": true,
               "fm": 60,
               "pm": 24,
@@ -495,7 +495,7 @@
           "papers": [
             {
               "year": 2019,
-              "hasQuestions": false,
+              "hasQuestions": true,
               "hasAnswers": true,
               "fm": 60,
               "pm": 24,
@@ -605,7 +605,7 @@
           "papers": [
             {
               "year": 2019,
-              "hasQuestions": false,
+              "hasQuestions": true,
               "hasAnswers": true,
               "fm": 60,
               "pm": 24,
@@ -1005,8 +1005,8 @@
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -1068,8 +1068,8 @@
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -1131,8 +1131,8 @@
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"
@@ -1194,8 +1194,8 @@
             },
             {
               "year": 2020,
-              "hasQuestions": false,
-              "hasAnswers": false,
+              "hasQuestions": true,
+              "hasAnswers": true,
               "fm": 60,
               "pm": 24,
               "duration": "3 Hours"

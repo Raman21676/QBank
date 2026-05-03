@@ -2610,3 +2610,2871 @@ if __name__ == "__main__":
     generate_answer_sheet("CACS254", "scripting-language", "Scripting Language", 2020, "semester-4", SL_QUESTIONS)
     generate_answer_sheet("CACS255", "database-management-system", "Database Management System", 2020, "semester-4", DBMS_QUESTIONS)
     print("\n✅ All 4th-semester 2020 answer sheets generated successfully!")
+
+# ============================================================
+# SEMESTER 5 - 2020 ANSWER DATA
+# ============================================================
+
+MIS_QUESTIONS = [
+    {
+        "title": "Group B",
+        "instruction": "Attempt any SIX questions. [6×5=30]",
+        "questions": [
+            {
+                "num": "2",
+                "question": "How properties like ubiquity, richness and information density make e-commerce better than traditional commerce?",
+                "marks": "5",
+                "answer": """<b>Ubiquity:</b> E-commerce is available everywhere, at all times. Customers can shop from anywhere with internet access, 24/7. Traditional commerce is limited by physical store locations and operating hours. Ubiquity expands market reach beyond geographic boundaries and eliminates time constraints.
+
+<b>Richness:</b> E-commerce can deliver rich, interactive content including videos, 3D models, reviews, and personalized recommendations. Traditional commerce is limited to in-person demonstrations and static displays. Online platforms can provide detailed product information, user guides, and multimedia experiences that enhance customer understanding.
+
+<b>Information Density:</b> E-commerce enables unprecedented information density at low cost. Sellers can track detailed customer behavior, preferences, and purchase history. Prices can be adjusted dynamically based on demand, competition, and customer segments. Traditional commerce has limited ability to collect and analyze customer data. Online merchants can use data analytics to personalize offers, optimize inventory, and improve customer experience.
+
+<b>Combined Impact:</b> These properties together create a more efficient, personalized, and accessible marketplace that reduces transaction costs, eliminates intermediaries, and provides greater value to both buyers and sellers.""",
+            },
+            {
+                "num": "3",
+                "question": "Differentiate B2C, B2B and C2C e-commerce with examples.",
+                "marks": "5",
+                "answer": """<b>B2C (Business-to-Consumer):</b>
+Transactions between businesses and individual consumers. Businesses sell products or services directly to end users.
+• Examples: Amazon, Flipkart, Daraz, Netflix
+• Characteristics: Large customer base, lower transaction volume per customer, marketing focused on individual preferences, payment via credit cards/digital wallets
+• Focus: Customer experience, brand loyalty, convenient checkout
+
+<b>B2B (Business-to-Business):</b>
+Transactions between two businesses. One business sells products or services to another business.
+• Examples: Alibaba, IndiaMART, Salesforce, SAP
+• Characteristics: Smaller customer base, higher transaction values, longer sales cycles, negotiated contracts, bulk orders
+• Focus: Relationship management, supply chain efficiency, integration with buyer's systems
+
+<b>C2C (Consumer-to-Consumer):</b>
+Transactions between individual consumers, often facilitated by a third-party platform.
+• Examples: eBay, Etsy, Facebook Marketplace, Hamrobazar
+• Characteristics: Peer-to-peer transactions, platform takes commission, user-generated listings, trust and rating systems
+• Focus: Community building, trust mechanisms, ease of listing/selling
+
+<b>Comparison Table:</b>
+<table border='1' cellpadding='4'><tr><td>Aspect</td><td>B2C</td><td>B2B</td><td>C2C</td></tr>
+<tr><td>Participants</td><td>Business + Consumer</td><td>Business + Business</td><td>Consumer + Consumer</td></tr>
+<tr><td>Order Size</td><td>Small</td><td>Large/Bulk</td><td>Variable</td></tr>
+<tr><td>Decision Time</td><td>Quick</td><td>Long/Complex</td><td>Moderate</td></tr>
+<tr><td>Payment</td><td>Instant</td><td>Credit/Invoice</td><td>Platform-mediated</td></tr>
+<tr><td>Relationship</td><td>Transactional</td><td>Strategic</td><td>Community-based</td></tr></table>""",
+            },
+            {
+                "num": "4",
+                "question": "What is the role of information superhighway in e-commerce? List the components of information superhighway.",
+                "marks": "2+3",
+                "answer": """<b>Role of Information Superhighway in E-Commerce:</b>
+The information superhighway is a global network of interconnected communication systems (primarily the Internet) that enables the rapid transmission of digital information across geographic boundaries.
+
+• <b>Global Connectivity:</b> Connects buyers and sellers worldwide, enabling global e-commerce markets
+• <b>Real-time Communication:</b> Supports instant messaging, video conferencing, and live customer support
+• <b>Data Transmission:</b> Enables secure transfer of payment information, order details, and digital products
+• <b>Marketing Channel:</b> Provides platforms for digital advertising, social media marketing, and search engine optimization
+• <b>Supply Chain Integration:</b> Connects suppliers, manufacturers, distributors, and retailers for efficient operations
+• <b>Infrastructure Foundation:</b> Serves as the backbone for all e-commerce activities including web hosting, cloud services, and content delivery networks
+
+<b>Components of Information Superhighway:</b>
+1. <b>Physical Infrastructure:</b> Fiber optic cables, satellites, cellular towers, routers, switches, and data centers
+2. <b>Network Protocols:</b> TCP/IP, HTTP/HTTPS, FTP, and other communication standards
+3. <b>Hardware Devices:</b> Computers, smartphones, tablets, servers, and networking equipment
+4. <b>Software Applications:</b> Web browsers, email clients, e-commerce platforms, and mobile apps
+5. <b>Content Providers:</b> Websites, streaming services, digital libraries, and online databases
+6. <b>Service Providers:</b> ISPs (Internet Service Providers), cloud service providers, and hosting companies
+7. <b>Human Users:</b> Consumers, businesses, governments, and educators who create and consume content""",
+            },
+            {
+                "num": "5",
+                "question": "What is international information system? Describe the concepts of outsourcing and offshoring in the system.",
+                "marks": "1+4",
+                "answer": """<b>International Information System:</b>
+An international information system is an information system that supports business operations across multiple countries. It handles diverse languages, currencies, regulations, time zones, and cultural differences. Such systems are essential for multinational corporations to coordinate global operations, manage international supply chains, and serve customers in different regions.
+
+<b>Outsourcing:</b>
+Outsourcing is the practice of contracting specific business functions or IT services to external third-party providers, regardless of location.
+• <b>Key Points:</b>
+  - Can be domestic or international
+  - Focuses on delegating specific tasks (e.g., customer support, software development, data entry)
+  - Company retains control over core business operations
+  - Reduces operational costs and accesses specialized expertise
+• <b>Example:</b> A US company hiring an Indian firm to handle technical support
+
+<b>Offshoring:</b>
+Offshoring is the relocation of business processes or operations to another country, typically to reduce costs or access new markets.
+• <b>Key Points:</b>
+  - Always involves a different country
+  - Can involve the company's own subsidiary (captive offshoring) or third-party providers
+  - Often motivated by lower labor costs, tax incentives, or access to skilled talent
+  - May involve manufacturing, service delivery, or IT operations
+• <b>Example:</b> Apple manufacturing iPhones in China; Google operating R&D centers in India
+
+<b>Comparison:</b>
+<table border='1' cellpadding='4'><tr><td>Aspect</td><td>Outsourcing</td><td>Offshoring</td></tr>
+<tr><td>Location</td><td>Can be domestic or foreign</td><td>Always foreign</td></tr>
+<tr><td>Ownership</td><td>Third-party provider</td><td>Can be own subsidiary or third-party</td></tr>
+<tr><td>Focus</td><td>Specific function/task</td><td>Entire process/operation</td></tr>
+<tr><td>Control</td><td>Lower (external vendor)</td><td>Higher (if captive)</td></tr></table>""",
+            },
+            {
+                "num": "6",
+                "question": "Define availability, authentication and authorization. How they can be enforced in e-commerce security?",
+                "marks": "3+2",
+                "answer": """<b>Availability:</b>
+Availability ensures that e-commerce systems and data are accessible to authorized users whenever needed. It guarantees that websites, payment gateways, and databases remain operational and responsive.
+• <b>Enforcement:</b> Redundant servers, load balancing, DDoS protection, backup systems, disaster recovery plans, SLA monitoring, and cloud-based auto-scaling
+
+<b>Authentication:</b>
+Authentication is the process of verifying the identity of a user, device, or system. It ensures that the entity requesting access is who it claims to be.
+• <b>Methods:</b> Passwords, multi-factor authentication (MFA), biometric verification (fingerprint, facial recognition), digital certificates, token-based authentication, and single sign-on (SSO)
+• <b>Enforcement:</b> Strong password policies, MFA implementation, CAPTCHA for bot detection, session management, and secure login protocols (OAuth, SAML)
+
+<b>Authorization:</b>
+Authorization determines what resources and actions an authenticated user is permitted to access. It defines the permissions and privileges assigned to users.
+• <b>Enforcement:</b> Role-Based Access Control (RBAC), Access Control Lists (ACL), permission matrices, principle of least privilege, and regular access audits
+
+<b>How They Work Together in E-Commerce:</b>
+1. <b>Authentication First:</b> Customer logs in with username/password + OTP (MFA)
+2. <b>Authorization Next:</b> System checks what the customer can access (view orders, edit profile, but not admin functions)
+3. <b>Availability Ensured:</b> Website remains online during peak shopping periods (e.g., Black Friday) through load balancing and CDN
+
+<b>Security Defense:</b> Together with encryption (confidentiality) and integrity checks, these form the core security framework protecting e-commerce transactions and customer data.""",
+            },
+            {
+                "num": "7",
+                "question": "What is e-checking? Describe its working mechanism.",
+                "marks": "2+3",
+                "answer": """<b>E-Checking (Electronic Checking):</b>
+E-checking is the electronic version of a paper check used for online payments. It contains the same information as a paper check (account number, routing number, payment amount) but is transmitted electronically. E-checks are processed through the Automated Clearing House (ACH) network and are governed by the same laws as paper checks.
+
+<b>Working Mechanism of E-Checking:</b>
+1. <b>Authorization:</b> The payer authorizes the payment by providing bank account details (account number, routing number) and signing an authorization form (digital or physical).
+
+2. <b>Payment Setup:</b> The merchant or payment processor creates an electronic check with:
+   - Payer's bank account number
+   - Bank routing number
+   - Payment amount
+   - Date and authorization
+
+3. <b>Encryption & Security:</b> The e-check is encrypted and digitally signed to ensure security and non-repudiation.
+
+4. <b>Transmission:</b> The encrypted e-check is sent through the ACH network from the payer's bank to the payee's bank.
+
+5. <b>Verification:</b> The payer's bank verifies that sufficient funds are available and that the account is valid.
+
+6. <b>Clearing & Settlement:</b> Funds are debited from the payer's account and credited to the payee's account. This typically takes 1-3 business days.
+
+7. <b>Confirmation:</b> Both parties receive confirmation of the transaction.
+
+<b>Advantages:</b> Lower processing fees than credit cards, no need for physical handling, faster than traditional mail, automatic record keeping
+<b>Disadvantages:</b> Slower than credit card processing, requires bank account information, limited consumer protection, not suitable for instant purchases""",
+            },
+            {
+                "num": "8",
+                "question": "Describe the website design criteria that one should show while designing an e-commerce website.",
+                "marks": "5",
+                "answer": """<b>Website Design Criteria for E-Commerce:</b>
+
+1. <b>User-Friendly Navigation:</b>
+   - Clear menu structure with logical categories
+   - Search functionality with filters and autocomplete
+   - Breadcrumb navigation to show user's location
+   - Consistent layout across all pages
+
+2. <b>Responsive Design:</b>
+   - Website must work seamlessly on desktop, tablet, and mobile devices
+   - Touch-friendly buttons and forms
+   - Fast loading times on all screen sizes
+   - Mobile-first approach for growing mobile commerce
+
+3. <b>Fast Loading Speed:</b>
+   - Optimize images and use content delivery networks (CDN)
+   - Minimize HTTP requests and enable browser caching
+   - Use lazy loading for images and videos
+   - Target page load time under 3 seconds
+
+4. <b>Secure Payment Integration:</b>
+   - SSL certificates for HTTPS encryption
+   - Multiple payment options (credit cards, digital wallets, COD)
+   - PCI DSS compliance for card data security
+   - Clear display of security badges and trust seals
+
+5. <b>High-Quality Product Presentation:</b>
+   - Multiple product images with zoom functionality
+   - Detailed product descriptions and specifications
+   - Customer reviews and ratings
+   - 360-degree views or product videos where applicable
+
+6. <b>Streamlined Checkout Process:</b>
+   - Minimal steps to complete purchase (ideally 3 steps or fewer)
+   - Guest checkout option
+   - Clear progress indicators
+   - Auto-fill for returning customers
+
+7. <b>Trust Signals:</b>
+   - Visible contact information and customer support
+   - Clear return and refund policies
+   - Company information and physical address
+   - Social proof (testimonials, user counts, media mentions)
+
+8. <b>SEO Optimization:</b>
+   - Search engine friendly URLs and meta tags
+   - Structured data for products
+   - Fast mobile performance (Core Web Vitals)
+   - Quality content and blog integration""",
+            },
+        ]
+    },
+    {
+        "title": "Group C",
+        "instruction": "Attempt any TWO questions. [2×10=20]",
+        "questions": [
+            {
+                "num": "9",
+                "question": "What do you mean by Wireless Application Protocol (WAP)? How it works? Discuss the layered architecture of WAP.",
+                "marks": "2+2+6",
+                "answer": """<b>Wireless Application Protocol (WAP):</b>
+WAP is an open international standard for applications that use wireless communication. It enables mobile devices (phones, PDAs) to access internet content and services. WAP was designed to work with low-bandwidth, high-latency wireless networks and devices with small screens and limited input capabilities.
+
+<b>How WAP Works:</b>
+1. <b>Request:</b> User enters a URL or clicks a link on a WAP-enabled mobile device
+2. <b>WAP Gateway:</b> The request is sent to a WAP gateway, which acts as a proxy between the mobile network and the internet
+3. <b>Protocol Translation:</b> The gateway converts WAP protocols to standard HTTP/TCP and fetches the requested content from the web server
+4. <b>Content Encoding:</b> The gateway compresses and encodes the content into WML (Wireless Markup Language) or XHTML-MP
+5. <b>Response:</b> The encoded content is sent back to the mobile device through the wireless network
+6. <b>Rendering:</b> The device's WAP browser (microbrowser) renders the content on the small screen
+
+<b>WAP Layered Architecture:</b>
+<table border='1' cellpadding='4'><tr><td>Layer</td><td>Name</td><td>Function</td><td>Equivalent in Web</td></tr>
+<tr><td>Layer 5</td><td>Application Layer (WAE)</td><td>Provides environment for wireless applications; includes WML, WMLScript, and telephony APIs</td><td>HTTP + HTML + JavaScript</td></tr>
+<tr><td>Layer 4</td><td>Session Layer (WSP)</td><td>Manages sessions between client and server; supports connection-oriented and connectionless modes</td><td>HTTP/HTTPS</td></tr>
+<tr><td>Layer 3</td><td>Transaction Layer (WTP)</td><td>Provides reliable request-response transactions with minimal overhead</td><td>TCP/UDP</td></tr>
+<tr><td>Layer 2</td><td>Security Layer (WTLS)</td><td>Provides encryption, data integrity, and authentication; equivalent to TLS/SSL</td><td>TLS/SSL</td></tr>
+<tr><td>Layer 1</td><td>Transport Layer (WDP)</td><td>Provides datagram service, abstracting underlying network (GSM, CDMA, SMS)</td><td>UDP</td></tr>
+<tr><td>Layer 0</td><td>Bearer Networks</td><td>Physical network: GSM, GPRS, CDMA, SMS, USSD</td><td>Ethernet, Wi-Fi</td></tr></table>
+
+<b>Key Features:</b> Optimized for low bandwidth, handles intermittent connectivity, supports push services, device-independent content adaptation, and security through WTLS.""",
+            },
+            {
+                "num": "10",
+                "question": "How important web contents are for e-commerce systems? Discuss their types. Justify, with examples, how web contents can be used to promote cross-selling, up-selling and promotions in e-commerce.",
+                "marks": "2+2+6",
+                "answer": """<b>Importance of Web Content in E-Commerce:</b>
+Web content is the foundation of e-commerce success. It drives traffic, engages customers, builds trust, and converts visitors into buyers.
+• <b>SEO:</b> Quality content improves search engine rankings and organic traffic
+• <b>Customer Education:</b> Informs customers about products, features, and benefits
+• <b>Trust Building:</b> Reviews, testimonials, and detailed descriptions reduce purchase anxiety
+• <b>Brand Identity:</b> Content communicates brand values and personality
+• <b>Conversion:</b> Compelling product descriptions and images increase purchase likelihood
+• <b>Customer Support:</b> FAQ pages, guides, and tutorials reduce support costs
+
+<b>Types of Web Content:</b>
+1. <b>Product Content:</b> Descriptions, specifications, images, videos, 360° views
+2. <b>Marketing Content:</b> Blog posts, articles, social media posts, email newsletters
+3. <b>Transactional Content:</b> Pricing, shipping info, return policies, terms of service
+4. <b>User-Generated Content:</b> Reviews, ratings, Q&A, photos from customers
+5. <b>Interactive Content:</b> Quizzes, configurators, calculators, chatbots
+6. <b>Visual Content:</b> Infographics, banners, product photos, demo videos
+7. <b>Educational Content:</b> How-to guides, tutorials, comparison articles
+
+<b>Cross-Selling with Web Content:</b>
+Cross-selling recommends complementary products to increase order value.
+• <b>Example:</b> Amazon's "Frequently Bought Together" section. When viewing a laptop, the page shows laptop bag, mouse, and keyboard. Content includes product images, compatibility info, and bundle pricing.
+• <b>Technique:</b> "Complete the Look" content on fashion sites shows matching accessories
+
+<b>Up-Selling with Web Content:</b>
+Up-selling encourages customers to purchase a higher-end version of a product.
+• <b>Example:</b> Apple's iPhone comparison table showing features of different models side-by-side, highlighting the benefits of the Pro model (better camera, longer battery). Content includes detailed spec comparisons and benefit-driven descriptions.
+• <b>Technique:</b> "Upgrade and Save" messaging with feature comparison charts
+
+<b>Promotions with Web Content:</b>
+Promotional content drives urgency and increases conversion rates.
+• <b>Example:</b> Flash sale countdown timers, "Limited Stock" badges, seasonal campaign banners. Daraz's "11.11 Sale" uses dedicated landing pages with countdown timers, discount badges, and curated product collections.
+• <b>Technique:</b> Personalized email content with exclusive discount codes based on browsing history
+
+<b>Combined Strategy:</b> Netflix uses content to promote cross-selling ("Because you watched X, you might like Y") and up-selling (premium plan benefits highlighted in comparison tables) through personalized web content.""",
+            },
+            {
+                "num": "11",
+                "question": "Discuss in detail the security defense strategies that you can implement while securing e-commerce systems from security attacks and threats.",
+                "marks": "10",
+                "answer": """<b>Security Defense Strategies for E-Commerce:</b>
+
+<b>1. Encryption and SSL/TLS:</b>
+• Implement SSL/TLS certificates to encrypt all data transmitted between customers and servers
+• Use HTTPS for all pages, not just checkout
+• Encrypt sensitive data at rest (customer information, payment details)
+• Implement end-to-end encryption for messaging and communications
+
+<b>2. Firewalls and Intrusion Detection/Prevention:</b>
+• Deploy Web Application Firewalls (WAF) to filter malicious traffic
+• Use network firewalls to control incoming and outgoing traffic
+• Implement IDS/IPS to detect and block suspicious activities in real-time
+• Regularly update firewall rules based on threat intelligence
+
+<b>3. Secure Payment Processing:</b>
+• Comply with PCI DSS (Payment Card Industry Data Security Standard)
+• Use tokenization to replace card numbers with non-sensitive tokens
+• Implement 3D Secure authentication for card payments
+• Consider using trusted payment gateways (Stripe, PayPal) rather than storing card data
+
+<b>4. Authentication and Access Control:</b>
+• Enforce strong password policies (minimum length, complexity requirements)
+• Implement Multi-Factor Authentication (MFA) for admin and customer accounts
+• Use Role-Based Access Control (RBAC) for internal systems
+• Implement account lockout policies after failed login attempts
+• Use OAuth/SAML for secure third-party authentication
+
+<b>5. Regular Security Audits and Testing:</b>
+• Conduct penetration testing to identify vulnerabilities
+• Perform code reviews and security scans
+• Use automated vulnerability scanning tools
+• Engage third-party security auditors annually
+• Implement bug bounty programs
+
+<b>6. Data Backup and Disaster Recovery:</b>
+• Maintain regular backups of all critical data
+• Store backups in geographically separate locations
+• Test disaster recovery procedures regularly
+• Implement point-in-time recovery capabilities
+• Use redundant servers and failover mechanisms
+
+<b>7. DDoS Protection:</b>
+• Use DDoS mitigation services (Cloudflare, AWS Shield)
+• Implement rate limiting on APIs and login endpoints
+• Use Content Delivery Networks (CDN) to absorb traffic spikes
+• Monitor traffic patterns for anomalies
+
+<b>8. Software Updates and Patch Management:</b>
+• Keep all software, frameworks, and libraries up to date
+• Apply security patches promptly
+• Remove unused plugins and dependencies
+• Use automated patch management tools
+
+<b>9. Employee Training and Awareness:</b>
+• Train staff on phishing recognition and social engineering
+• Establish clear security policies and procedures
+• Conduct regular security awareness simulations
+• Limit access to sensitive systems based on job roles
+
+<b>10. Legal and Compliance Measures:</b>
+• Implement privacy policies compliant with GDPR, CCPA
+• Maintain audit logs of all transactions
+• Use digital signatures for non-repudiation
+• Comply with consumer protection laws
+• Implement data retention and deletion policies""",
+            },
+        ]
+    }
+]
+
+DOTNET_QUESTIONS = [
+    {
+        "title": "Group B",
+        "instruction": "Attempt any SIX questions. [6×5=30]",
+        "questions": [
+            {
+                "num": "2",
+                "question": "Differentiate Object Oriented Programming and Object Based Programming. Explain some of the major features of C# language.",
+                "marks": "2+3",
+                "answer": """<b>Object Oriented Programming (OOP) vs Object Based Programming (OBP):</b>
+<table border='1' cellpadding='4'><tr><td>Aspect</td><td>Object Oriented Programming</td><td>Object Based Programming</td></tr>
+<tr><td>Inheritance</td><td>Supports inheritance (single & multiple)</td><td>Does not support inheritance</td></tr>
+<tr><td>Polymorphism</td><td>Supports polymorphism (overloading, overriding)</td><td>Limited or no polymorphism</td></tr>
+<tr><td>Encapsulation</td><td>Full encapsulation support</td><td>Supports encapsulation</td></tr>
+<tr><td>Examples</td><td>C#, Java, C++, Python</td><td>JavaScript, VBScript, Ruby (pre-2.0)</td></tr>
+<tr><td>Reusability</td><td>High reusability through inheritance</td><td>Limited reusability through composition only</td></tr>
+<tr><td>Complexity</td><td>More complex, structured approach</td><td>Simpler, more flexible</td></tr></table>
+
+<b>Major Features of C# Language:</b>
+1. <b>Object-Oriented:</b> Supports encapsulation, inheritance, and polymorphism. Everything is an object.
+2. <b>Type-Safe:</b> Strong typing prevents type errors at compile time. Variables must be declared with specific types.
+3. <b>Modern:</b> Supports generics, LINQ, async/await, lambda expressions, and extension methods.
+4. <b>Managed Code:</b> Runs on .NET CLR with automatic memory management (garbage collection).
+5. <b>Component-Oriented:</b> Supports properties, events, attributes, and reflection for building reusable components.
+6. <b>Interoperability:</b> Can interact with COM components, native C/C++ libraries (P/Invoke), and other .NET languages.
+7. <b>Versioning:</b> Supports method overloading and overriding with virtual/override keywords for safe versioning.
+8. <b>Standardized:</b> ECMA and ISO standardized language with cross-platform support via .NET Core/.NET 5+.
+9. <b>Rich Library:</b> Extensive Base Class Library (BCL) for common tasks like I/O, networking, collections, and threading.""",
+            },
+            {
+                "num": "3",
+                "question": "Explain overview of Microsoft .NET framework and its components in detail.",
+                "marks": "5",
+                "answer": """<b>Microsoft .NET Framework Overview:</b>
+The .NET Framework is a software development platform developed by Microsoft. It provides a controlled programming environment where software can be developed, installed, and executed on Windows-based systems. It supports multiple programming languages and provides a large standard library.
+
+<b>Components of .NET Framework:</b>
+
+1. <b>Common Language Runtime (CLR):</b>
+   - The execution engine of .NET
+   - Provides memory management (Garbage Collection)
+   - Handles exception management, type safety, and security
+   - Just-In-Time (JIT) compilation converts IL code to native machine code
+   - Provides cross-language integration
+
+2. <b>.NET Framework Class Library (FCL):</b>
+   - A comprehensive collection of reusable classes, interfaces, and value types
+   - Provides functionality for: file I/O, database connectivity, XML processing, web services, GUI development, cryptography, threading
+   - Organized into namespaces (System, System.IO, System.Data, System.Web, etc.)
+
+3. <b>Common Type System (CTS):</b>
+   - Defines how types are declared, used, and managed
+   - Ensures type safety and cross-language interoperability
+   - Supports value types (structs, enums) and reference types (classes, interfaces, delegates)
+
+4. <b>Common Language Specification (CLS):</b>
+   - A subset of CTS that all .NET languages must support
+   - Ensures interoperability between different .NET languages
+   - Any CLS-compliant code can be used by any .NET language
+
+5. <b>Base Class Library (BCL):</b>
+   - Core subset of FCL providing fundamental functionality
+   - Includes collections, I/O, threading, reflection, networking, and security
+
+6. <b>ASP.NET:</b>
+   - Web development framework for building web applications and services
+   - Supports Web Forms, MVC, Web API, and SignalR
+   - Provides server controls, data binding, and state management
+
+7. <b>ADO.NET:</b>
+   - Data access technology for connecting to databases
+   - Supports disconnected data architecture with DataSets and DataAdapters
+   - Provides providers for SQL Server, Oracle, OLE DB, and ODBC
+
+8. <b>Windows Forms / WPF:</b>
+   - Technologies for building desktop applications
+   - Windows Forms: traditional event-driven GUI framework
+   - WPF: modern UI framework using XAML for declarative UI design
+
+<b>Architecture:</b>
+<table border='1' cellpadding='4'><tr><td>Application Layer</td><td>WinForms / WPF / ASP.NET / Console</td></tr>
+<tr><td>Base Class Library</td><td>System, System.IO, System.Data, System.Web, etc.</td></tr>
+<tr><td>Common Language Runtime</td><td>JIT Compiler, GC, Security, Type Checker</td></tr>
+<tr><td>Operating System</td><td>Windows OS</td></tr></table>""",
+            },
+            {
+                "num": "4",
+                "question": "What do you mean by property in C# language? How it is different from method? Compare automatic property with other types of property with suitable example.",
+                "marks": "1+1+3",
+                "answer": """<b>Property in C#:</b>
+A property in C# is a member that provides a flexible mechanism to read, write, or compute the value of a private field. Properties use accessors (get and set) to control access to fields. They appear like fields from the outside but are implemented like methods internally.
+
+<b>Property vs Method:</b>
+<table border='1' cellpadding='4'><tr><td>Aspect</td><td>Property</td><td>Method</td></tr>
+<tr><td>Syntax</td><td>Accessed like a field: obj.Name</td><td>Called with parentheses: obj.GetName()</td></tr>
+<tr><td>Purpose</td><td>Encapsulates field access</td><td>Performs operations/actions</td></tr>
+<tr><td>Return</td><td>Always returns a single value</td><td>Can return void or any type</td></tr>
+<tr><td>Parameters</td><td>Cannot have parameters (except indexers)</td><td>Can have multiple parameters</td></tr>
+<tr><td>Overloading</td><td>Cannot be overloaded</td><td>Can be overloaded</td></tr>
+<tr><td>Use Case</td><td>Data encapsulation, validation</td><td>Business logic, calculations</td></tr></table>
+
+<b>Types of Properties:</b>
+
+1. <b>Read-Write Property (Full Property):</b>
+<pre>
+private string name;
+public string Name
+{
+    get { return name; }
+    set { name = value; }
+}
+</pre>
+
+2. <b>Read-Only Property:</b>
+<pre>
+public string Email { get; }
+</pre>
+
+3. <b>Write-Only Property:</b>
+<pre>
+public string Password { set { /* encrypt and store */ } }
+</pre>
+
+4. <b>Automatic Property:</b>
+<pre>
+public string Name { get; set; }
+</pre>
+
+<b>Comparison: Automatic Property vs Full Property</b>
+<table border='1' cellpadding='4'><tr><td>Aspect</td><td>Automatic Property</td><td>Full Property</td></tr>
+<tr><td>Backing Field</td><td>Compiler-generated, hidden</td><td>Explicitly declared</td></tr>
+<tr><td>Validation</td><td>Cannot add validation in basic form</td><td>Can add validation logic in set</td></tr>
+<tr><td>Code Length</td><td>Very concise</td><td>More verbose</td></tr>
+<tr><td>Readability</td><td>Clean and simple</td><td>More explicit</td></tr>
+<tr><td>Initialization</td><td>Can use default values</td><td>Full control over initialization</td></tr>
+<tr><td>When to Use</td><td>Simple data binding, DTOs</td><td>Business logic, validation needed</td></tr></table>""",
+            },
+            {
+                "num": "5",
+                "question": "Define constructor. Explain different types of constructors used in C# with example.",
+                "marks": "1+4",
+                "answer": """<b>Constructor:</b>
+A constructor is a special method in a class that is automatically invoked when an object of the class is created. It has the same name as the class and no return type. Constructors are used to initialize object state and allocate resources.
+
+<b>Types of Constructors in C#:</b>
+
+1. <b>Default Constructor:</b>
+A constructor with no parameters. If no constructor is defined, C# provides a default constructor automatically.
+<pre>
+public class Student
+{
+    public string Name;
+    public Student()  // Default constructor
+    {
+        Name = "Unknown";
+    }
+}
+</pre>
+
+2. <b>Parameterized Constructor:</b>
+A constructor that accepts parameters to initialize object with specific values.
+<pre>
+public class Student
+{
+    public string Name;
+    public int Age;
+    public Student(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
+}
+// Usage: Student s = new Student("Ram", 20);
+</pre>
+
+3. <b>Copy Constructor:</b>
+Creates a new object by copying values from an existing object.
+<pre>
+public class Student
+{
+    public string Name;
+    public Student(Student other)
+    {
+        Name = other.Name;
+    }
+}
+</pre>
+
+4. <b>Static Constructor:</b>
+Called automatically before any instance is created or static member is referenced. Used to initialize static data.
+<pre>
+public class Database
+{
+    public static string ConnectionString;
+    static Database()
+    {
+        ConnectionString = "Server=localhost;Database=Test";
+    }
+}
+</pre>
+
+5. <b>Private Constructor:</b>
+Prevents instantiation from outside the class. Used in singleton pattern and utility classes.
+<pre>
+public class Singleton
+{
+    private static Singleton instance;
+    private Singleton() { }
+    public static Singleton GetInstance()
+    {
+        if (instance == null)
+            instance = new Singleton();
+        return instance;
+    }
+}
+</pre>
+
+<b>Constructor Chaining:</b>
+Constructors can call other constructors using the <code>this</code> keyword:
+<pre>
+public Student() : this("Unknown", 0) { }
+public Student(string name, int age)
+{
+    Name = name; Age = age;
+}
+</pre>""",
+            },
+            {
+                "num": "6",
+                "question": "Define inheritance. Write a C# program to demonstrate multilevel and multiple inheritance.",
+                "marks": "1+2+2",
+                "answer": """<b>Inheritance:</b>
+Inheritance is an object-oriented programming concept where a new class (derived/child class) inherits properties and methods from an existing class (base/parent class). It promotes code reusability and establishes an "is-a" relationship between classes.
+
+<b>C# supports:</b>
+• Single inheritance (one base class per derived class)
+• Multilevel inheritance (class B inherits from A, class C inherits from B)
+• Hierarchical inheritance (multiple classes inherit from one base)
+• Multiple inheritance of interfaces (not classes)
+
+<b>Multilevel Inheritance Example:</b>
+<pre>
+// Base class
+public class Person
+{
+    public string Name;
+    public void DisplayPerson()
+    {
+        Console.WriteLine("Name: " + Name);
+    }
+}
+
+// Intermediate derived class
+public class Employee : Person
+{
+    public int EmployeeId;
+    public void DisplayEmployee()
+    {
+        DisplayPerson();
+        Console.WriteLine("Employee ID: " + EmployeeId);
+    }
+}
+
+// Derived from Employee
+public class Manager : Employee
+{
+    public string Department;
+    public void DisplayManager()
+    {
+        DisplayEmployee();
+        Console.WriteLine("Department: " + Department);
+    }
+}
+
+// Usage
+class Program
+{
+    static void Main()
+    {
+        Manager mgr = new Manager();
+        mgr.Name = "Hari";
+        mgr.EmployeeId = 101;
+        mgr.Department = "IT";
+        mgr.DisplayManager();
+    }
+}
+</pre>
+
+<b>Multiple Inheritance using Interfaces:</b>
+C# does not support multiple class inheritance, but it supports multiple interface inheritance:
+<pre>
+public interface IPrintable
+{
+    void Print();
+}
+
+public interface IScannable
+{
+    void Scan();
+}
+
+public class AllInOnePrinter : IPrintable, IScannable
+{
+    public void Print()
+    {
+        Console.WriteLine("Printing document...");
+    }
+    public void Scan()
+    {
+        Console.WriteLine("Scanning document...");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        AllInOnePrinter device = new AllInOnePrinter();
+        device.Print();
+        device.Scan();
+    }
+}
+</pre>
+
+<b>Output:</b>
+<pre>
+Name: Hari
+Employee ID: 101
+Department: IT
+Printing document...
+Scanning document...
+</pre>""",
+            },
+            {
+                "num": "7",
+                "question": "What is generics? List different types of generic classes. Explain delegate with example.",
+                "marks": "1+1+3",
+                "answer": """<b>Generics:</b>
+Generics in C# allow you to define type-safe data structures and methods without committing to actual data types at definition time. They enable code reusability by creating classes, interfaces, and methods that work with any data type while maintaining type safety at compile time.
+
+<b>Benefits of Generics:</b>
+• Type safety: Errors caught at compile time, not runtime
+• Performance: No boxing/unboxing for value types
+• Code reusability: One class/method works with multiple types
+• Reduced code duplication
+
+<b>Types of Generic Classes:</b>
+
+1. <b>Generic Collections:</b>
+   - <code>List&lt;T&gt;</code>: Dynamic array
+   - <code>Dictionary&lt;TKey, TValue&gt;</code>: Key-value pairs
+   - <code>Queue&lt;T&gt;</code>, <code>Stack&lt;T&gt;</code>: FIFO and LIFO structures
+
+2. <b>Generic Interfaces:</b>
+   - <code>IEnumerable&lt;T&gt;</code>, <code>IList&lt;T&gt;</code>, <code>ICollection&lt;T&gt;</code>
+
+3. <b>Custom Generic Classes:</b>
+<pre>
+public class Box&lt;T&gt;
+{
+    private T item;
+    public void SetItem(T value) { item = value; }
+    public T GetItem() { return item; }
+}
+// Usage: Box&lt;int&gt; intBox = new Box&lt;int&gt;();
+</pre>
+
+4. <b>Generic Methods:</b>
+<pre>
+public T Max&lt;T&gt;(T a, T b) where T : IComparable
+{
+    return a.CompareTo(b) > 0 ? a : b;
+}
+</pre>
+
+5. <b>Generic Constraints:</b>
+   - <code>where T : class</code> (reference type)
+   - <code>where T : struct</code> (value type)
+   - <code>where T : new()</code> (parameterless constructor)
+   - <code>where T : BaseClass</code> (inheritance constraint)
+   - <code>where T : IComparable</code> (interface constraint)
+
+<b>Delegate:</b>
+A delegate is a type-safe function pointer that references methods. It defines the signature of methods that can be assigned to it.
+
+<b>Example:</b>
+<pre>
+// Delegate declaration
+public delegate void GreetingDelegate(string name);
+
+public class Program
+{
+    public static void EnglishGreeting(string name)
+    {
+        Console.WriteLine("Hello, " + name);
+    }
+    public static void NepaliGreeting(string name)
+    {
+        Console.WriteLine("Namaste, " + name);
+    }
+    static void Main()
+    {
+        GreetingDelegate greet;
+        greet = EnglishGreeting;
+        greet("Ram");        // Output: Hello, Ram
+        greet = NepaliGreeting;
+        greet("Sita");       // Output: Namaste, Sita
+    }
+}
+</pre>
+
+<b>Built-in Delegates:</b>
+• <code>Action&lt;T&gt;</code>: Delegate with no return value
+• <code>Func&lt;T, TResult&gt;</code>: Delegate with return value
+• <code>Predicate&lt;T&gt;</code>: Delegate that returns boolean""",
+            },
+            {
+                "num": "8",
+                "question": "What do you mean by lambda expression? Explain different types of lambda expression used in C# with example.",
+                "marks": "1+4",
+                "answer": """<b>Lambda Expression:</b>
+A lambda expression is an anonymous function that can contain expressions and statements. It provides a concise way to write inline code blocks without explicitly declaring a method. Introduced in C# 3.0, lambdas are extensively used with LINQ, delegates, and event handlers.
+
+<b>Syntax:</b>
+<code>(parameters) => expression</code> or <code>(parameters) => { statements; }</code>
+
+<b>Types of Lambda Expressions:</b>
+
+1. <b>Expression Lambda:</b>
+Contains a single expression on the right side of => operator. Returns the result of the expression.
+<pre>
+// Expression lambda with one parameter
+Func&lt;int, int&gt; square = x => x * x;
+Console.WriteLine(square(5));  // Output: 25
+
+// Expression lambda with two parameters
+Func&lt;int, int, int&gt; add = (a, b) => a + b;
+Console.WriteLine(add(3, 4));  // Output: 7
+</pre>
+
+2. <b>Statement Lambda:</b>
+Contains a block of statements enclosed in braces. Can include multiple statements, variable declarations, and loops.
+<pre>
+Action&lt;string&gt; greet = name =>
+{
+    string message = "Hello, " + name;
+    Console.WriteLine(message);
+};
+greet("Ram");  // Output: Hello, Ram
+
+Func&lt;int, int, string&gt; compare = (a, b) =>
+{
+    if (a > b)
+        return a + " is greater";
+    else if (a < b)
+        return b + " is greater";
+    else
+        return "Both are equal";
+};
+Console.WriteLine(compare(5, 3));  // Output: 5 is greater
+</pre>
+
+3. <b>Lambda with LINQ:</b>
+<pre>
+List&lt;int&gt; numbers = new List&lt;int&gt; { 1, 2, 3, 4, 5, 6 };
+// Using lambda with Where
+var evenNumbers = numbers.Where(n => n % 2 == 0);
+foreach (var n in evenNumbers)
+    Console.Write(n + " ");  // Output: 2 4 6
+
+// Using lambda with Select
+var squares = numbers.Select(n => n * n);
+</pre>
+
+4. <b>Lambda with Delegates:</b>
+<pre>
+delegate bool IsEligible(Student s);
+
+class Student
+{
+    public string Name;
+    public int Marks;
+}
+
+IsEligible isPass = s => s.Marks >= 40;
+Student student = new Student { Name = "Hari", Marks = 75 };
+Console.WriteLine(isPass(student));  // Output: True
+</pre>
+
+5. <b>Lambda with Events:</b>
+<pre>
+Button btn = new Button();
+btn.Click += (sender, e) =>
+{
+    Console.WriteLine("Button clicked!");
+};
+</pre>
+
+<b>Key Points:</b>
+• Type inference: Compiler infers parameter types
+• Can capture variables from enclosing scope (closures)
+• Shorter and more readable than anonymous methods
+• Cannot be used where a statement block requires branching (return, break, continue) without statement lambda""",
+            },
+        ]
+    },
+    {
+        "title": "Group C",
+        "instruction": "Attempt any TWO questions. [2×10=20]",
+        "questions": [
+            {
+                "num": "9",
+                "question": "a) Write a program to create user registration form in one ASP.NET web page and display filled data in another page. b) Write a program for handling exception in ASP.NET.",
+                "marks": "7+3",
+                "answer": """<b>a) ASP.NET User Registration Form:</b>
+
+<b>Registration.aspx (Form Page):</b>
+<pre>
+&lt;%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="WebApp.Registration" %&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;User Registration&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+    &lt;form id="form1" runat="server"&gt;
+        &lt;h2&gt;User Registration&lt;/h2&gt;
+        &lt;asp:Label ID="lblName" runat="server" Text="Name:"&gt;&lt;/asp:Label&gt;
+        &lt;asp:TextBox ID="txtName" runat="server"&gt;&lt;/asp:TextBox&gt;&lt;br /&gt;&lt;br /&gt;
+        
+        &lt;asp:Label ID="lblEmail" runat="server" Text="Email:"&gt;&lt;/asp:Label&gt;
+        &lt;asp:TextBox ID="txtEmail" runat="server"&gt;&lt;/asp:TextBox&gt;&lt;br /&gt;&lt;br /&gt;
+        
+        &lt;asp:Label ID="lblPhone" runat="server" Text="Phone:"&gt;&lt;/asp:Label&gt;
+        &lt;asp:TextBox ID="txtPhone" runat="server"&gt;&lt;/asp:TextBox&gt;&lt;br /&gt;&lt;br /&gt;
+        
+        &lt;asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" /&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<b>Registration.aspx.cs:</b>
+<pre>
+using System;
+
+namespace WebApp
+{
+    public partial class Registration : System.Web.UI.Page
+    {
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            Session["Name"] = txtName.Text;
+            Session["Email"] = txtEmail.Text;
+            Session["Phone"] = txtPhone.Text;
+            Response.Redirect("Display.aspx");
+        }
+    }
+}
+</pre>
+
+<b>Display.aspx (Result Page):</b>
+<pre>
+&lt;%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Display.aspx.cs" Inherits="WebApp.Display" %&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;Display Data&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+    &lt;form id="form1" runat="server"&gt;
+        &lt;h2&gt;Registered User Details&lt;/h2&gt;
+        &lt;asp:Label ID="lblResult" runat="server"&gt;&lt;/asp:Label&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<b>Display.aspx.cs:</b>
+<pre>
+using System;
+
+namespace WebApp
+{
+    public partial class Display : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            string name = Session["Name"].ToString();
+            string email = Session["Email"].ToString();
+            string phone = Session["Phone"].ToString();
+            lblResult.Text = "Name: " + name + "&lt;br/&gt;Email: " + email + "&lt;br/&gt;Phone: " + phone;
+        }
+    }
+}
+</pre>
+
+<b>b) Exception Handling in ASP.NET:</b>
+<pre>
+using System;
+
+namespace WebApp
+{
+    public partial class ExceptionDemo : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                int a = 10;
+                int b = 0;
+                int result = a / b;  // This will throw DivideByZeroException
+                lblResult.Text = "Result: " + result;
+            }
+            catch (DivideByZeroException ex)
+            {
+                lblResult.Text = "Error: Cannot divide by zero. " + ex.Message;
+            }
+            catch (Exception ex)
+            {
+                lblResult.Text = "General Error: " + ex.Message;
+            }
+            finally
+            {
+                // Cleanup code always executes
+                lblResult.Text += "&lt;br/&gt;Execution completed.";
+            }
+        }
+    }
+}
+</pre>
+
+<b>Global Exception Handling (Global.asax):</b>
+<pre>
+void Application_Error(object sender, EventArgs e)
+{
+    Exception ex = Server.GetLastError();
+    // Log error to file or database
+    System.IO.File.AppendAllText("ErrorLog.txt", DateTime.Now + ": " + ex.Message + "\\n");
+    Server.ClearError();
+    Response.Redirect("ErrorPage.aspx");
+}
+</pre>""",
+            },
+            {
+                "num": "10",
+                "question": "a) How virtual method is used to achieve dynamic binding in C#? Explain with the help of suitable program. b) Define operator overloading. Write a C# program to overload binary operator.",
+                "marks": "1+4+1+4",
+                "answer": """<b>a) Virtual Method and Dynamic Binding:</b>
+
+<b>Dynamic Binding (Runtime Polymorphism):</b>
+Dynamic binding is the process of resolving a method call at runtime rather than compile time. In C#, virtual methods enable dynamic binding by allowing a derived class to override a base class method.
+
+<b>How it works:</b>
+1. Base class declares a method with <code>virtual</code> keyword
+2. Derived class overrides it with <code>override</code> keyword
+3. At runtime, the actual object's type (not the reference type) determines which method is called
+
+<b>Program:</b>
+<pre>
+using System;
+
+public class Shape
+{
+    public virtual void Draw()
+    {
+        Console.WriteLine("Drawing a shape");
+    }
+}
+
+public class Circle : Shape
+{
+    public override void Draw()
+    {
+        Console.WriteLine("Drawing a circle");
+    }
+}
+
+public class Rectangle : Shape
+{
+    public override void Draw()
+    {
+        Console.WriteLine("Drawing a rectangle");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Shape s1 = new Circle();      // Upcasting
+        Shape s2 = new Rectangle();   // Upcasting
+        
+        s1.Draw();  // Output: Drawing a circle
+        s2.Draw();  // Output: Drawing a rectangle
+        
+        // Even though reference type is Shape, 
+        // the actual object's method is called at runtime
+    }
+}
+</pre>
+
+<b>Key Points:</b>
+• Without <code>virtual</code>/<code>override</code>, method hiding occurs with <code>new</code> keyword
+• Dynamic binding enables extensibility and loose coupling
+• Used extensively in frameworks (ASP.NET MVC controllers, Entity Framework)
+
+<b>b) Operator Overloading:</b>
+Operator overloading allows custom types (classes/structs) to define how operators (+, -, *, /, ==, etc.) behave when applied to objects of that type.
+
+<b>Program to Overload Binary + Operator:</b>
+<pre>
+using System;
+
+public class Complex
+{
+    public double Real { get; set; }
+    public double Imaginary { get; set; }
+    
+    public Complex(double real, double imaginary)
+    {
+        Real = real;
+        Imaginary = imaginary;
+    }
+    
+    // Overload binary + operator
+    public static Complex operator +(Complex c1, Complex c2)
+    {
+        return new Complex(c1.Real + c2.Real, c1.Imaginary + c2.Imaginary);
+    }
+    
+    // Overload binary - operator
+    public static Complex operator -(Complex c1, Complex c2)
+    {
+        return new Complex(c1.Real - c2.Real, c1.Imaginary - c2.Imaginary);
+    }
+    
+    public override string ToString()
+    {
+        return Real + " + " + Imaginary + "i";
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Complex c1 = new Complex(3, 4);
+        Complex c2 = new Complex(1, 2);
+        
+        Complex sum = c1 + c2;
+        Complex diff = c1 - c2;
+        
+        Console.WriteLine("c1 = " + c1);       // Output: c1 = 3 + 4i
+        Console.WriteLine("c2 = " + c2);       // Output: c2 = 1 + 2i
+        Console.WriteLine("Sum = " + sum);     // Output: Sum = 4 + 6i
+        Console.WriteLine("Diff = " + diff);   // Output: Diff = 2 + 2i
+    }
+}
+</pre>
+
+<b>Rules for Operator Overloading:</b>
+• Must be declared as public and static
+• At least one parameter must be of the containing type
+• Cannot overload =, &&, ||, ?:, new, is, as, sizeof, typeof operators
+• Can overload arithmetic (+, -, *, /, %), comparison (==, !=, <, >), and bitwise operators""",
+            },
+            {
+                "num": "11",
+                "question": "a) What is LINQ? Write a program to select employees whose salary is greater than 20000 and whose address is kathmandu using LINQ. b) Write a C# program to show insert and select operation in database.",
+                "marks": "1+4+5",
+                "answer": """<b>a) LINQ (Language Integrated Query):</b>
+LINQ is a set of language extensions in C# that provides a consistent query syntax for querying data from various sources (objects, databases, XML, collections). It integrates query capabilities directly into the C# language, making queries type-safe and IntelliSense-supported.
+
+<b>LINQ Program:</b>
+<pre>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public class Employee
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Address { get; set; }
+    public decimal Salary { get; set; }
+}
+
+class Program
+{
+    static void Main()
+    {
+        List&lt;Employee&gt; employees = new List&lt;Employee&gt;
+        {
+            new Employee { Id = 1, Name = "Ram", Address = "Kathmandu", Salary = 25000 },
+            new Employee { Id = 2, Name = "Sita", Address = "Pokhara", Salary = 30000 },
+            new Employee { Id = 3, Name = "Hari", Address = "Kathmandu", Salary = 18000 },
+            new Employee { Id = 4, Name = "Gita", Address = "Kathmandu", Salary = 35000 },
+            new Employee { Id = 5, Name = "Shyam", Address = "Lalitpur", Salary = 22000 }
+        };
+        
+        // LINQ Query Syntax
+        var result = from emp in employees
+                     where emp.Salary > 20000 && emp.Address == "Kathmandu"
+                     select emp;
+        
+        // Alternative: Method Syntax
+        // var result = employees.Where(emp => emp.Salary > 20000 && emp.Address == "Kathmandu");
+        
+        Console.WriteLine("Employees with Salary > 20000 and Address = Kathmandu:");
+        foreach (var emp in result)
+        {
+            Console.WriteLine($"ID: {emp.Id}, Name: {emp.Name}, Salary: {emp.Salary}");
+        }
+    }
+}
+</pre>
+
+<b>Output:</b>
+<pre>
+Employees with Salary > 20000 and Address = Kathmandu:
+ID: 1, Name: Ram, Salary: 25000
+ID: 4, Name: Gita, Salary: 35000
+</pre>
+
+<b>b) C# Database Operations (Insert and Select):</b>
+<pre>
+using System;
+using System.Data;
+using System.Data.SqlClient;
+
+public class DatabaseDemo
+{
+    static string connString = "Server=localhost;Database=CompanyDB;Trusted_Connection=True;";
+    
+    // INSERT Operation
+    public static void InsertEmployee(string name, string address, decimal salary)
+    {
+        using (SqlConnection conn = new SqlConnection(connString))
+        {
+            string query = "INSERT INTO Employees (Name, Address, Salary) VALUES (@Name, @Address, @Salary)";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.Parameters.AddWithValue("@Name", name);
+            cmd.Parameters.AddWithValue("@Address", address);
+            cmd.Parameters.AddWithValue("@Salary", salary);
+            
+            conn.Open();
+            int rowsAffected = cmd.ExecuteNonQuery();
+            Console.WriteLine($"{rowsAffected} row(s) inserted.");
+        }
+    }
+    
+    // SELECT Operation
+    public static void SelectEmployees()
+    {
+        using (SqlConnection conn = new SqlConnection(connString))
+        {
+            string query = "SELECT Id, Name, Address, Salary FROM Employees";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            
+            conn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            
+            Console.WriteLine("\\nEmployee List:");
+            Console.WriteLine("ID\\tName\\t\\tAddress\\t\\tSalary");
+            while (reader.Read())
+            {
+                Console.WriteLine($"{reader["Id"]}\\t{reader["Name"]}\\t\\t{reader["Address"]}\\t\\t{reader["Salary"]}");
+            }
+            reader.Close();
+        }
+    }
+    
+    static void Main()
+    {
+        // Insert a new employee
+        InsertEmployee("Ram", "Kathmandu", 25000);
+        
+        // Display all employees
+        SelectEmployees();
+    }
+}
+</pre>
+
+<b>Using DataAdapter and DataSet (Disconnected Architecture):</b>
+<pre>
+public static void SelectWithDataSet()
+{
+    using (SqlConnection conn = new SqlConnection(connString))
+    {
+        string query = "SELECT * FROM Employees";
+        SqlDataAdapter adapter = new SqlDataAdapter(query, conn);
+        DataSet ds = new DataSet();
+        adapter.Fill(ds, "Employees");
+        
+        foreach (DataRow row in ds.Tables["Employees"].Rows)
+        {
+            Console.WriteLine($"{row["Name"]} - {row["Salary"]}");
+        }
+    }
+}
+</pre>""",
+            },
+        ]
+    }
+]
+
+NETWORKING_QUESTIONS = [
+    {
+        "title": "Group B",
+        "instruction": "Attempt any SIX questions. [6×5=30]",
+        "questions": [
+            {
+                "num": "2",
+                "question": "Define protocols. Explain WWW and HTTP protocol.",
+                "marks": "1+2+2",
+                "answer": """<b>Protocol:</b>
+A protocol is a set of rules and conventions that govern how data is transmitted, received, and processed in a network. Protocols define the format, timing, sequencing, and error checking for communication between devices. They ensure that different systems can communicate effectively despite differences in hardware, software, or architecture.
+
+<b>Characteristics of Protocols:</b>
+• Syntax: Structure or format of data (how it is organized)
+• Semantics: Meaning of each section and action to take
+• Timing: Speed matching and sequencing of data
+
+<b>WWW (World Wide Web):</b>
+The WWW is an information system where documents and other web resources are identified by URLs, interlinked by hyperlinks, and accessible via the Internet. It was invented by Tim Berners-Lee in 1989.
+
+<b>Key Components of WWW:</b>
+• <b>Web Browser:</b> Client software (Chrome, Firefox) that requests and displays web pages
+• <b>Web Server:</b> Software (Apache, Nginx, IIS) that stores and serves web content
+• <b>URL (Uniform Resource Locator):</b> Address that identifies a resource on the web
+• <b>HTML:</b> Markup language for creating web pages
+• <b>HTTP/HTTPS:</b> Protocol for transferring web pages
+
+<b>HTTP (Hypertext Transfer Protocol):</b>
+HTTP is an application-layer protocol used for transmitting hypermedia documents, such as HTML. It is the foundation of data communication on the WWW.
+
+<b>Features of HTTP:</b>
+• Stateless: Each request is independent; server does not retain client information between requests
+• Connectionless: Client and server connect only during request/response
+• Uses TCP port 80 (HTTP) or 443 (HTTPS)
+• Supports various methods: GET, POST, PUT, DELETE, HEAD, OPTIONS
+
+<b>HTTP Request Methods:</b>
+• <b>GET:</b> Requests data from server (retrieval)
+• <b>POST:</b> Submits data to server (form submission)
+• <b>PUT:</b> Updates existing resource
+• <b>DELETE:</b> Removes specified resource
+• <b>HEAD:</b> Same as GET but returns only headers
+
+<b>HTTP Response Codes:</b>
+• 1xx: Informational (100 Continue)
+• 2xx: Success (200 OK, 201 Created)
+• 3xx: Redirection (301 Moved Permanently)
+• 4xx: Client Error (404 Not Found, 400 Bad Request)
+• 5xx: Server Error (500 Internal Server Error)""",
+            },
+            {
+                "num": "3",
+                "question": "Define transmission impairment. Explain the causes of impairments.",
+                "marks": "1+4",
+                "answer": """<b>Transmission Impairment:</b>
+Transmission impairment refers to the degradation of signal quality during data transmission over a communication channel. As signals travel through media (cable, fiber, air), they become weaker, distorted, or contaminated by noise, leading to data errors.
+
+<b>Causes of Transmission Impairment:</b>
+
+1. <b>Attenuation:</b>
+   - Loss of signal energy as it travels through the medium
+   - The signal strength decreases with distance
+   - Measured in decibels (dB)
+   - <b>Solution:</b> Use amplifiers (analog) or repeaters (digital) to boost the signal
+   - Example: A voice signal over a long telephone line becomes weaker and harder to hear
+
+2. <b>Distortion:</b>
+   - Change in the shape or form of the signal
+   - Occurs because different frequency components travel at different speeds in the medium
+   - Results from non-linear characteristics of the transmission channel
+   - In composite signals (made of multiple frequencies), each frequency component may arrive at different times
+   - <b>Solution:</b> Use equalizers to correct frequency response
+   - Example: Audio distortion in poor quality speakers
+
+3. <b>Noise:</b>
+   - Unwanted signals inserted between transmitter and receiver
+   - Types of noise:
+     • <b>Thermal Noise:</b> Random motion of electrons in a conductor, present in all electronic devices. Cannot be eliminated.
+     • <b>Induced Noise:</b> Caused by sources like motors and appliances. Can be minimized with shielding.
+     • <b>Crosstalk:</b> Unwanted coupling between adjacent wires. One wire acts as antenna transmitting, another as antenna receiving.
+     • <b>Impulse Noise:</b> Sudden spikes caused by external events like lightning, power surges. Brief but high amplitude.
+     • <b>Shot Noise:</b> Random fluctuations in current flow in electronic devices.
+   - <b>Solution:</b> Shielding, filtering, proper grounding, using better cables
+
+<b>Signal-to-Noise Ratio (SNR):</b>
+SNR = Signal Power / Noise Power
+Higher SNR means better signal quality. Measured in decibels.
+
+<b>Impact on Digital vs Analog:</b>
+• Digital signals can be regenerated by repeaters
+• Analog signals can only be amplified (noise is amplified too)
+• Digital transmission is more resistant to noise""",
+            },
+            {
+                "num": "4",
+                "question": "Define HDLC. Explain the HDLC frame formats.",
+                "marks": "1+4",
+                "answer": """<b>HDLC (High-Level Data Link Control):</b>
+HDLC is a bit-oriented synchronous data link layer protocol developed by ISO. It is widely used for reliable point-to-point and multipoint communication. HDLC provides error detection, flow control, and supports various operational modes.
+
+<b>Features of HDLC:</b>
+• Bit-oriented (uses bit stuffing for transparency)
+• Synchronous transmission
+• Supports full-duplex communication
+• Provides error detection using CRC
+• Supports both point-to-point and multipoint configurations
+
+<b>HDLC Frame Format:</b>
+<pre>
+| Flag | Address | Control | Information | FCS | Flag |
+| 8 bits | 8 bits | 8/16 bits | Variable | 16/32 bits | 8 bits |
+</pre>
+
+1. <b>Flag Field (8 bits):</b>
+   - Pattern: 01111110
+   - Marks beginning and end of frame
+   - Used for synchronization
+
+2. <b>Address Field (8 bits):</b>
+   - Contains address of secondary station
+   - In point-to-point: usually 11111111 (broadcast) or specific address
+   - In multipoint: identifies destination or source station
+   - First bit indicates if address is extended (1 = extended)
+
+3. <b>Control Field (8 or 16 bits):</b>
+   Defines the type and function of the frame. Three types:
+   
+   a) <b>I-Frame (Information Frame):</b>
+   - First bit = 0
+   - Carries user data
+   - Contains send sequence number N(S) and receive sequence number N(R)
+   - Used for piggybacked acknowledgments
+   
+   b) <b>S-Frame (Supervisory Frame):</b>
+   - First two bits = 10
+   - Used for flow control and error control (no data)
+   - Types: RR (Receive Ready), RNR (Receive Not Ready), REJ (Reject), SREJ (Selective Reject)
+   
+   c) <b>U-Frame (Unnumbered Frame):</b>
+   - First two bits = 11
+   - Used for link management (setup, disconnection, mode setting)
+   - Examples: SNRM (Set Normal Response Mode), SABM (Set Asynchronous Balanced Mode), DISC (Disconnect)
+
+4. <b>Information Field (Variable):</b>
+   - Contains actual data payload
+   - Present only in I-frames and some U-frames
+   - Variable length
+
+5. <b>FCS (Frame Check Sequence) - 16 or 32 bits:</b>
+   - Contains CRC (Cyclic Redundancy Check) for error detection
+   - Computed over Address, Control, and Information fields
+   - Receiver recalculates and compares
+
+<b>HDLC Operational Modes:</b>
+• <b>NRM (Normal Response Mode):</b> Unbalanced - secondary responds only when polled by primary
+• <b>ABM (Asynchronous Balanced Mode):</b> Balanced - both stations are equal (most common)
+• <b>ARM (Asynchronous Response Mode):</b> Unbalanced - secondary can initiate without polling""",
+            },
+            {
+                "num": "5",
+                "question": "Define IP Address. Specify IPv4 address classes with their address ranges.",
+                "marks": "1+4",
+                "answer": """<b>IP Address:</b>
+An IP (Internet Protocol) address is a unique numerical identifier assigned to each device connected to a computer network that uses the Internet Protocol for communication. It serves two main functions: host/network interface identification and location addressing.
+
+<b>Characteristics:</b>
+• IPv4: 32-bit address written as four octets (e.g., 192.168.1.1)
+• IPv6: 128-bit address written in hexadecimal (e.g., 2001:0db8:85a3::8a2e:0370:7334)
+• Each IP address consists of a network portion and a host portion
+• Assigned by IANA and regional registries
+
+<b>IPv4 Address Classes:</b>
+
+<table border='1' cellpadding='4'><tr><td>Class</td><td>First Bits</td><td>Network Bits</td><td>Host Bits</td><td>Address Range</td><td>Default Mask</td><td>Use</td></tr>
+<tr><td>A</td><td>0</td><td>8</td><td>24</td><td>1.0.0.0 to 126.255.255.255</td><td>255.0.0.0 (/8)</td><td>Large networks</td></tr>
+<tr><td>B</td><td>10</td><td>16</td><td>16</td><td>128.0.0.0 to 191.255.255.255</td><td>255.255.0.0 (/16)</td><td>Medium networks</td></tr>
+<tr><td>C</td><td>110</td><td>24</td><td>8</td><td>192.0.0.0 to 223.255.255.255</td><td>255.255.255.0 (/24)</td><td>Small networks</td></tr>
+<tr><td>D</td><td>1110</td><td>-</td><td>-</td><td>224.0.0.0 to 239.255.255.255</td><td>-</td><td>Multicast</td></tr>
+<tr><td>E</td><td>1111</td><td>-</td><td>-</td><td>240.0.0.0 to 255.255.255.255</td><td>-</td><td>Reserved/Experimental</td></tr></table>
+
+<b>Special IP Addresses:</b>
+• <b>127.0.0.0/8:</b> Loopback addresses (127.0.0.1 = localhost)
+• <b>0.0.0.0:</b> Default route / unspecified address
+• <b>255.255.255.255:</b> Limited broadcast
+• <b>10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16:</b> Private IP ranges (RFC 1918)
+• <b>169.254.0.0/16:</b> Link-local addresses (APIPA)
+
+<b>Class A Details:</b>
+• Supports 126 networks (0 and 127 reserved)
+• Each network supports 16,777,214 hosts
+• Used by very large organizations (government, ISPs)
+
+<b>Class B Details:</b>
+• Supports 16,384 networks
+• Each network supports 65,534 hosts
+• Used by medium to large organizations
+
+<b>Class C Details:</b>
+• Supports 2,097,152 networks
+• Each network supports 254 hosts
+• Most common for small businesses and home networks""",
+            },
+            {
+                "num": "6",
+                "question": "Define Subnetting. Suppose you are given network address: 192.168.10.0 and subnet mask: 255.255.255.240 then calculate total number of subnets and numbers of hosts per subnet.",
+                "marks": "1+2+2",
+                "answer": """<b>Subnetting:</b>
+Subnetting is the process of dividing a single physical network into multiple smaller logical networks (subnets). It improves network performance, enhances security, and allows efficient use of IP addresses. Subnetting is done by borrowing bits from the host portion of an IP address to create a subnet identifier.
+
+<b>Benefits of Subnetting:</b>
+• Reduces network congestion by limiting broadcast domains
+• Improves security by isolating network segments
+• Simplifies network management and troubleshooting
+• Allows flexible allocation of IP addresses
+• Enables logical organization by department or function
+
+<b>Given:</b>
+• Network Address: 192.168.10.0
+• Subnet Mask: 255.255.255.240
+
+<b>Step 1: Convert Subnet Mask to Binary</b>
+255.255.255.240 = 11111111.11111111.11111111.11110000
+
+<b>Step 2: Determine Number of Network Bits</b>
+• Number of network bits = 28 (28 ones in the mask)
+• This is a /28 network
+• Original Class C network has 24 network bits
+• Subnet bits borrowed = 28 - 24 = 4 bits
+
+<b>Step 3: Calculate Number of Subnets</b>
+Number of subnets = 2^(subnet bits) = 2^4 = <b>16 subnets</b>
+
+<b>Step 4: Calculate Number of Host Bits</b>
+• Total bits = 32
+• Network bits = 28
+• Host bits = 32 - 28 = 4 bits
+
+<b>Step 5: Calculate Hosts per Subnet</b>
+Number of hosts per subnet = 2^(host bits) - 2 = 2^4 - 2 = 16 - 2 = <b>14 hosts per subnet</b>
+(We subtract 2 because first address is network address and last is broadcast address)
+
+<b>Summary:</b>
+<table border='1' cellpadding='4'><tr><td>Parameter</td><td>Value</td></tr>
+<tr><td>Network Address</td><td>192.168.10.0</td></tr>
+<tr><td>Subnet Mask</td><td>255.255.255.240 (/28)</td></tr>
+<tr><td>Number of Subnets</td><td>16</td></tr>
+<tr><td>Hosts per Subnet</td><td>14 usable hosts</td></tr>
+<tr><td>Block Size</td><td>16 addresses per subnet</td></tr>
+<tr><td>First Subnet</td><td>192.168.10.0 - 192.168.10.15</td></tr>
+<tr><td>Second Subnet</td><td>192.168.10.16 - 192.168.10.31</td></tr>
+<tr><td>Last Subnet</td><td>192.168.10.240 - 192.168.10.255</td></tr></table>
+
+<b>Example Subnet Ranges:</b>
+• Subnet 1: Network=192.168.10.0, Usable=192.168.10.1 to .14, Broadcast=192.168.10.15
+• Subnet 2: Network=192.168.10.16, Usable=192.168.10.17 to .30, Broadcast=192.168.10.31
+• Subnet 16: Network=192.168.10.240, Usable=192.168.10.241 to .254, Broadcast=192.168.10.255""",
+            },
+            {
+                "num": "7",
+                "question": "Draw a User Datagram format. Explain UDP operations.",
+                "marks": "2+3",
+                "answer": """<b>UDP (User Datagram Protocol):</b>
+UDP is a connectionless, unreliable transport layer protocol in the TCP/IP suite. It provides minimal overhead and fast transmission but does not guarantee delivery, ordering, or duplicate protection.
+
+<b>UDP Header Format (8 bytes total):</b>
+<pre>
+ 0      7 8     15 16    23 24    31
++--------+--------+--------+--------+
+|     Source Port      |  Destination Port   |
++--------+--------+--------+--------+
+|     Length           |     Checksum        |
++--------+--------+--------+--------+
+|              Data (Variable length)          |
++--------+--------+--------+--------+
+</pre>
+
+<b>Fields:</b>
+1. <b>Source Port (16 bits):</b> Port number of the sender. Optional; set to 0 if not used.
+2. <b>Destination Port (16 bits):</b> Port number of the receiver. Identifies the application process.
+3. <b>Length (16 bits):</b> Total length of UDP segment (header + data) in bytes. Minimum value is 8 (header only).
+4. <b>Checksum (16 bits):</b> Optional error-checking field. Covers header, data, and pseudo-header (IP addresses).
+
+<b>UDP Operations:</b>
+
+1. <b>Connectionless Communication:</b>
+   - No connection establishment (no handshake like TCP)
+   - Each datagram is independent
+   - Sender simply formats the datagram and passes to IP
+   - Fast but unreliable delivery
+
+2. <b>Encapsulation:</b>
+   - Application data is encapsulated with UDP header
+   - UDP segment is passed to IP layer
+   - IP adds its own header and routes the packet
+
+3. <b>Demultiplexing:</b>
+   - Receiver uses destination port number to deliver data to correct application
+   - Multiple applications can use UDP simultaneously on different ports
+
+4. <b>No Error Recovery:</b>
+   - UDP checksum detects errors but does not correct them
+   - Corrupted packets are silently discarded (no retransmission)
+   - Applications must handle error recovery if needed
+
+5. <b>No Flow Control:</b>
+   - No mechanism to prevent sender from overwhelming receiver
+   - No sliding window or acknowledgment system
+
+6. <b>No Ordering:</b>
+   - Packets may arrive out of order
+   - No sequence numbers to reorder packets
+   - Applications handle ordering if required
+
+<b>Applications Using UDP:</b>
+• DNS (Domain Name System) queries
+• Streaming media (video/audio)
+• Online gaming
+• VoIP (Voice over IP)
+• SNMP (Simple Network Management Protocol)
+• TFTP (Trivial File Transfer Protocol)
+
+<b>Advantages:</b> Low latency, minimal overhead, no connection setup delay, suitable for real-time applications
+<b>Disadvantages:</b> Unreliable, no congestion control, no guaranteed delivery""",
+            },
+            {
+                "num": "8",
+                "question": "Write short notes on (Any Two): a) DNS b) Public Key Cryptography c) VPN",
+                "marks": "2.5+2.5",
+                "answer": """<b>a) DNS (Domain Name System):</b>
+DNS is a hierarchical, distributed naming system that translates human-readable domain names (like www.google.com) into IP addresses (like 142.250.185.78). It acts as the "phonebook of the Internet."
+
+<b>How DNS Works:</b>
+1. User types www.example.com in browser
+2. Browser checks local cache, then OS cache
+3. If not found, query goes to configured DNS resolver (usually ISP's DNS)
+4. Resolver queries Root DNS servers → TLD servers (.com) → Authoritative DNS servers
+5. Authoritative server returns the IP address
+6. Resolver caches the result and returns to client
+7. Browser connects to the IP address
+
+<b>DNS Record Types:</b>
+• A: Maps domain to IPv4 address
+• AAAA: Maps domain to IPv6 address
+• CNAME: Alias for another domain
+• MX: Mail exchange server
+• NS: Name server for the domain
+• TXT: Text records (SPF, DKIM)
+• PTR: Reverse DNS lookup
+
+<b>Benefits:</b> Human-friendly names, load distribution via multiple IPs, easy migration between servers
+
+---
+
+<b>b) Public Key Cryptography:</b>
+Public key cryptography (asymmetric cryptography) uses a pair of keys: a public key for encryption and a private key for decryption. The public key can be freely shared, while the private key must be kept secret.
+
+<b>Key Characteristics:</b>
+• Two mathematically related but distinct keys
+• Computationally infeasible to derive private key from public key
+• Solves the key distribution problem of symmetric cryptography
+
+<b>How it works for Encryption:</b>
+1. Sender encrypts message with recipient's public key
+2. Only recipient can decrypt with their private key
+
+<b>How it works for Digital Signatures:</b>
+1. Sender hashes the message and encrypts hash with their private key
+2. Anyone can verify by decrypting with sender's public key and comparing hashes
+
+<b>Common Algorithms:</b>
+• RSA (Rivest-Shamir-Adleman): Based on factoring large primes
+• ECC (Elliptic Curve Cryptography): More efficient, smaller key sizes
+• Diffie-Hellman: Key exchange protocol
+
+<b>Applications:</b> SSL/TLS certificates, secure email (PGP), code signing, blockchain, VPN authentication
+
+<b>Advantages:</b> No need for secure key exchange, supports digital signatures, non-repudiation
+<b>Disadvantages:</b> Slower than symmetric cryptography, larger key sizes required
+
+---
+
+<b>c) VPN (Virtual Private Network):</b>
+A VPN creates a secure, encrypted connection over a public network (like the Internet), allowing remote users to access a private network as if they were directly connected to it.
+
+<b>How VPN Works:</b>
+1. User connects to VPN client and authenticates
+2. VPN client establishes encrypted tunnel to VPN server
+3. All traffic between client and server is encrypted
+4. VPN server forwards requests to destination on behalf of client
+5. Responses return through the encrypted tunnel
+
+<b>Types of VPN:</b>
+• <b>Remote Access VPN:</b> Individual users connect to corporate network (e.g., employees working from home)
+• <b>Site-to-Site VPN:</b> Connects entire networks at different locations (e.g., branch offices to headquarters)
+• <b>SSL VPN:</b> Uses web browser for remote access (no client installation)
+• <b>IPsec VPN:</b> Operates at network layer, provides strong security
+
+<b>VPN Protocols:</b>
+• OpenVPN: Open-source, highly secure, uses SSL/TLS
+• IPsec: Industry standard for site-to-site connections
+• L2TP/IPsec: Combines L2TP tunneling with IPsec encryption
+• WireGuard: Modern, fast, lightweight protocol
+
+<b>Benefits:</b> Privacy and anonymity, bypass geo-restrictions, secure remote work, protection on public Wi-Fi
+<b>Limitations:</b> Reduced speed due to encryption, potential logging by VPN providers, not completely anonymous""",
+            },
+        ]
+    },
+    {
+        "title": "Group C",
+        "instruction": "Attempt any TWO questions. [2×10=20]",
+        "questions": [
+            {
+                "num": "9",
+                "question": "Critically analyze the OSI reference model.",
+                "marks": "10",
+                "answer": """<b>OSI Reference Model (Open Systems Interconnection):</b>
+The OSI model is a conceptual framework developed by ISO in 1984 that standardizes network communication into seven distinct layers. Each layer has specific functions and communicates with adjacent layers through well-defined interfaces.
+
+<b>The Seven Layers:</b>
+
+<b>7. Application Layer:</b>
+• Closest to the end user
+• Provides network services to applications (HTTP, FTP, SMTP, DNS)
+• Handles user authentication, data formatting, and presentation
+• Example: Web browser, email client
+
+<b>6. Presentation Layer:</b>
+• Translates data between application and network formats
+• Handles encryption/decryption, compression/decompression
+• Data representation (ASCII, EBCDIC, JPEG, MPEG)
+• Example: SSL/TLS encryption, data compression
+
+<b>5. Session Layer:</b>
+• Establishes, manages, and terminates connections (sessions)
+• Handles dialogue control (full-duplex, half-duplex)
+• Synchronization using checkpoints for long transmissions
+• Example: NetBIOS, RPC, PPTP
+
+<b>4. Transport Layer:</b>
+• End-to-end communication and data delivery
+• Segmentation and reassembly of data
+• Flow control and error recovery
+• TCP (reliable, connection-oriented) and UDP (unreliable, connectionless)
+
+<b>3. Network Layer:</b>
+• Logical addressing (IP addressing)
+• Routing and path determination between networks
+• Packet forwarding and fragmentation
+• Protocols: IP, ICMP, ARP, RIP, OSPF, BGP
+
+<b>2. Data Link Layer:</b>
+• Physical addressing (MAC addresses)
+• Framing, error detection (CRC), and flow control
+• Divided into LLC (Logical Link Control) and MAC (Media Access Control)
+• Protocols: Ethernet, Wi-Fi (802.11), PPP, HDLC
+
+<b>1. Physical Layer:</b>
+• Transmits raw bits over physical medium
+• Defines electrical, mechanical, and procedural specifications
+• Cables, connectors, hubs, repeaters, signal encoding
+• Examples: Ethernet cables, fiber optics, radio waves
+
+<b>Critical Analysis - Advantages:</b>
+1. <b>Modularity:</b> Changes in one layer don't affect others
+2. <b>Standardization:</b> Provides common framework for vendors
+3. <b>Interoperability:</b> Different systems can communicate
+4. <b>Troubleshooting:</b> Easy to isolate network problems by layer
+5. <b>Education:</b> Excellent teaching tool for understanding networking
+6. <b>Protocol Independence:</b> Allows multiple protocols at each layer
+
+<b>Critical Analysis - Disadvantages:</b>
+1. <b>Complexity:</b> Seven layers can be unnecessarily complex
+2. <b>Performance Overhead:</b> Multiple layers add processing overhead
+3. <b>Not Widely Implemented:</b> TCP/IP (4 layers) became the de facto standard
+4. <b>Some Layers Redundant:</b> Presentation and Session layers often merged with Application layer in practice
+5. <b>Designed Before Internet:</b> Some concepts don't match modern networking reality
+6. <b>Strict Layering Inefficient:</b> Some protocols (like TCP/IP) violate strict layering for performance
+
+<b>Comparison with TCP/IP:</b>
+<table border='1' cellpadding='4'><tr><td>Aspect</td><td>OSI</td><td>TCP/IP</td></tr>
+<tr><td>Layers</td><td>7</td><td>4</td></tr>
+<tr><td>Development</td><td>Model first, then protocols</td><td>Protocols first, then model</td></tr>
+<tr><td>Approach</td><td>Vertical (strict)</td><td>Horizontal (loose)</td></tr>
+<tr><td>Adoption</td><td>Theoretical reference</td><td>Practical implementation</td></tr>
+<tr><td>Protocol Support</td><td>Generic</td><td>TCP/IP specific</td></tr></table>
+
+<b>Conclusion:</b>
+While OSI is not directly implemented, its concepts and terminology are fundamental to networking education and troubleshooting. The layered approach remains valid, and OSI terminology (like "Layer 2 switch" or "Layer 3 router") is widely used in the industry.""",
+            },
+            {
+                "num": "10",
+                "question": "Explain the random-access protocols under the multiple access taxonomy.",
+                "marks": "10",
+                "answer": """<b>Random Access Protocols:</b>
+Random access protocols allow stations to access the channel randomly without prior coordination. When multiple stations transmit simultaneously, collisions may occur. These protocols are also called contention protocols.
+
+<b>1. ALOHA:</b>
+The simplest random access protocol developed at University of Hawaii.
+
+<b>Pure ALOHA:</b>
+• Stations transmit whenever they have data
+• No synchronization or coordination
+• If collision occurs, station waits random time and retransmits
+• Vulnerable time = 2 × frame transmission time
+• Maximum throughput = 18.4% (1/2e)
+
+<b>Slotted ALOHA:</b>
+• Time is divided into discrete slots (equal to frame transmission time)
+• Stations can only transmit at slot boundaries
+• Reduces collisions by half
+• Vulnerable time = 1 × slot time
+• Maximum throughput = 36.8% (1/e)
+
+<b>2. CSMA (Carrier Sense Multiple Access):</b>
+Stations listen to the channel before transmitting.
+
+<b>a) 1-Persistent CSMA:</b>
+• Station senses channel before transmitting
+• If idle: transmits immediately (probability 1)
+• If busy: waits until channel becomes idle, then transmits immediately
+• Problem: High collision probability when multiple stations waiting
+
+<b>b) Non-Persistent CSMA:</b>
+• If channel idle: transmits immediately
+• If channel busy: waits random time before sensing again
+• Reduces collisions but increases delay
+
+<b>c) p-Persistent CSMA:</b>
+• If channel idle: transmits with probability p, or defer to next slot with probability (1-p)
+• If channel busy: waits until next slot and senses again
+• Used in slotted channels, balances between 1-persistent and non-persistent
+
+<b>3. CSMA/CD (CSMA with Collision Detection):</b>
+Used in Ethernet (IEEE 802.3).
+
+<b>Operation:</b>
+1. Station senses channel before transmitting
+2. If idle, begins transmission while continuing to sense
+3. If collision detected during transmission, station stops immediately
+4. Sends jam signal to inform all stations of collision
+5. Waits random time (binary exponential backoff) and retries
+
+<b>Binary Exponential Backoff:</b>
+• After first collision: wait 0 or 1 slot times
+• After second collision: wait 0, 1, 2, or 3 slot times
+• After nth collision: wait 0 to 2^n - 1 slot times (capped at 1023)
+• After 16 attempts, frame is discarded
+
+<b>Throughput:</b> Much higher than ALOHA, approaches 100% under light load
+<b>Limitation:</b> Requires minimum frame size to ensure collision detection; not suitable for wireless
+
+<b>4. CSMA/CA (CSMA with Collision Avoidance):</b>
+Used in wireless networks (IEEE 802.11 Wi-Fi).
+
+<b>Why CSMA/CD doesn't work for Wireless:</b>
+• Hidden terminal problem: Two stations can't hear each other but both reach the access point
+• Signal strength decay: Can't reliably detect collisions while transmitting
+• Fading and interference make collision detection unreliable
+
+<b>Operation:</b>
+1. Station senses channel before transmitting
+2. If idle: waits for DIFS (Distributed Inter-Frame Space), then transmits
+3. If busy: waits until channel is idle, then waits additional DIFS
+4. Uses RTS/CTS (Request to Send / Clear to Send) handshake:
+   - Sender sends RTS to AP
+   - AP responds with CTS
+   - Other stations hearing CTS defer transmission
+   - Sender transmits data
+   - AP sends ACK after successful reception
+5. Uses NAV (Network Allocation Vector) to track expected channel busy time
+
+<b>5. Controlled Access Protocols (for comparison):</b>
+• <b>Reservation:</b> Stations reserve slots before transmitting
+• <b>Polling:</b> Master station invites slave stations to transmit
+• <b>Token Passing:</b> Stations pass a token; only token holder can transmit
+
+<b>Comparison Table:</b>
+<table border='1' cellpadding='4'><tr><td>Protocol</td><td>Collision Handling</td><td>Throughput</td><td>Usage</td></tr>
+<tr><td>Pure ALOHA</td><td>Retransmit after random delay</td><td>18%</td><td>Historical</td></tr>
+<tr><td>Slotted ALOHA</td><td>Retransmit after random delay</td><td>37%</td><td>Historical</td></tr>
+<tr><td>CSMA</td><td>Various strategies</td><td>Varies</td><td>Theoretical</td></tr>
+<tr><td>CSMA/CD</td><td>Collision detection + backoff</td><td>~90%</td><td>Wired Ethernet</td></tr>
+<tr><td>CSMA/CA</td><td>Collision avoidance (RTS/CTS)</td><td>~70%</td><td>Wireless (Wi-Fi)</td></tr></table>""",
+            },
+            {
+                "num": "11",
+                "question": "Explain the IPv4 Header format in detail.",
+                "marks": "10",
+                "answer": """<b>IPv4 Header Format:</b>
+The IPv4 header is variable in size (minimum 20 bytes, maximum 60 bytes) and contains all necessary information for routing and delivering packets across networks.
+
+<pre>
+ 0                   1                   2                   3
+ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Version|  IHL  |Type of Service|          Total Length         |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|         Identification        |Flags|      Fragment Offset    |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|  Time to Live |    Protocol   |         Header Checksum       |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                       Source IP Address                       |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                    Destination IP Address                     |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                    Options (Variable, 0-40 bytes)             |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+</pre>
+
+<b>Field Descriptions:</b>
+
+1. <b>Version (4 bits):</b>
+   - Indicates IP version (4 for IPv4)
+   - Allows routers to process packet correctly
+
+2. <b>IHL - Internet Header Length (4 bits):</b>
+   - Length of header in 32-bit words
+   - Minimum value = 5 (5 × 4 = 20 bytes)
+   - Maximum value = 15 (15 × 4 = 60 bytes)
+
+3. <b>Type of Service / DSCP (8 bits):</b>
+   - Specifies quality of service parameters
+   - Originally: Precedence, Delay, Throughput, Reliability bits
+   - Now: Differentiated Services Code Point (DSCP) for QoS
+   - ECN (Explicit Congestion Notification) bits for congestion signaling
+
+4. <b>Total Length (16 bits):</b>
+   - Entire packet size (header + data) in bytes
+   - Maximum value = 65,535 bytes
+   - Data length = Total Length - (IHL × 4)
+
+5. <b>Identification (16 bits):</b>
+   - Unique identifier for each packet
+   - Used for reassembling fragmented packets
+   - All fragments of same packet have same identification number
+
+6. <b>Flags (3 bits):</b>
+   - Bit 0: Reserved (must be 0)
+   - Bit 1 (DF - Don't Fragment): If set, packet cannot be fragmented
+   - Bit 2 (MF - More Fragments): If set, more fragments follow; 0 for last fragment
+
+7. <b>Fragment Offset (13 bits):</b>
+   - Position of fragment relative to original packet data
+   - Measured in units of 8 bytes
+   - First fragment has offset 0
+
+8. <b>Time to Live / TTL (8 bits):</b>
+   - Maximum number of hops (routers) packet can traverse
+   - Decremented by 1 at each router
+   - Packet discarded when TTL reaches 0 (prevents infinite loops)
+   - Typical initial values: 64 (Linux), 128 (Windows), 255 (routers)
+
+9. <b>Protocol (8 bits):</b>
+   - Identifies transport layer protocol
+   - 1 = ICMP, 6 = TCP, 17 = UDP, 41 = IPv6, 50 = ESP, 89 = OSPF
+
+10. <b>Header Checksum (16 bits):</b>
+    - Error detection for header only (not data)
+    - Recalculated at each router (TTL changes)
+    - If checksum fails, packet is discarded
+
+11. <b>Source IP Address (32 bits):</b>
+    - IPv4 address of sender
+
+12. <b>Destination IP Address (32 bits):</b>
+    - IPv4 address of intended receiver
+
+13. <b>Options (Variable, 0-40 bytes):</b>
+    - Rarely used in practice
+    - Security, strict source routing, loose source routing, record route, timestamp
+    - Must be padded to 32-bit boundary
+
+<b>Key Points:</b>
+• Minimum header size = 20 bytes (when no options)
+• Header size must be multiple of 4 bytes
+• Options field allows extension but reduces efficiency
+• Checksum covers only header, not payload (higher layers handle data integrity)
+• Fragmentation allows packets to traverse networks with smaller MTU""",
+            },
+        ]
+    }
+]
+
+GRAPHICS_QUESTIONS = [
+    {
+        "title": "Group B",
+        "instruction": "Attempt any SIX questions. [6×5=30]",
+        "questions": [
+            {
+                "num": "2",
+                "question": "What is computer graphics? Explain different application areas of computer graphics.",
+                "marks": "5",
+                "answer": """<b>Computer Graphics:</b>
+Computer graphics is a field of computer science that deals with generating, manipulating, and displaying visual content using computers. It involves the creation, storage, and manipulation of models and images using mathematical algorithms and computational techniques.
+
+<b>Key Components:</b>
+• <b>Hardware:</b> Graphics cards (GPU), displays, input devices
+• <b>Software:</b> Rendering engines, modeling tools, game engines
+• <b>Mathematics:</b> Geometry, linear algebra, calculus for transformations
+• <b>Algorithms:</b> Rasterization, shading, ray tracing, clipping
+
+<b>Application Areas of Computer Graphics:</b>
+
+1. <b>Entertainment and Gaming:</b>
+   - 3D video games (Fortnite, Call of Duty)
+   - CGI in movies (Avatar, Avengers)
+   - Virtual reality experiences
+   - Animation (Pixar, Disney films)
+
+2. <b>Computer-Aided Design (CAD):</b>
+   - Architectural design and visualization
+   - Engineering product design (AutoCAD, SolidWorks)
+   - Circuit board layout and design
+   - Manufacturing and prototyping (3D printing)
+
+3. <b>Medical Imaging:</b>
+   - MRI, CT scan visualization
+   - 3D reconstruction from 2D slices
+   - Surgical simulation and planning
+   - Virtual anatomy education
+
+4. <b>Education and Training:</b>
+   - Interactive educational software
+   - Flight simulators for pilot training
+   - Medical procedure simulators
+   - Virtual laboratories
+
+5. <b>Scientific Visualization:</b>
+   - Weather pattern visualization
+   - Molecular modeling in chemistry
+   - Astronomical data representation
+   - Fluid dynamics simulation
+
+6. <b>Advertising and Marketing:</b>
+   - Product visualization and mockups
+   - Architectural walkthroughs
+   - Logo and brand design
+   - Virtual showrooms
+
+7. <b>User Interface Design:</b>
+   - Graphical user interfaces (GUI)
+   - Icons, buttons, and visual elements
+   - Touchscreen interfaces
+   - AR/VR interfaces
+
+8. <b>Art and Design:</b>
+   - Digital painting (Photoshop, Procreate)
+   - Graphic design (Illustrator, CorelDRAW)
+   - Typography and layout design
+   - Generative art using algorithms
+
+9. <b>Simulation and Virtual Reality:</b>
+   - Military training simulations
+   - Vehicle crash testing simulation
+   - Urban planning and traffic simulation
+   - Virtual tourism
+
+10. <b>Data Visualization:</b>
+    - Business intelligence dashboards
+    - Infographics
+    - Real-time monitoring displays
+    - Geographic information systems (GIS)""",
+            },
+            {
+                "num": "3",
+                "question": "How can you draw a circle using mid-point circle algorithm? Explain with the algorithm.",
+                "marks": "5",
+                "answer": """<b>Mid-Point Circle Algorithm:</b>
+The mid-point circle algorithm is an efficient rasterization algorithm for drawing circles. It uses the circle's symmetry to calculate only one octant and derives the remaining seven octants by reflection.
+
+<b>Circle Equation:</b>
+x² + y² = r²
+
+<b>Decision Parameter:</b>
+At each step, we evaluate the midpoint between the east (E) and southeast (SE) pixels to decide which pixel to choose next.
+
+<b>Algorithm Steps:</b>
+
+1. <b>Initialization:</b>
+   - Start with x = 0, y = r
+   - Initial decision parameter: P₀ = 1 - r (or P₀ = 5/4 - r for integer version, approximated as 1 - r)
+
+2. <b>Plot Initial Point:</b>
+   - Plot (0, r) and use symmetry to plot all 8 octant points
+
+3. <b>Iterative Process:</b>
+   While x < y:
+   
+   a) If P < 0:
+      - Choose East pixel (x+1, y)
+      - P = P + 2x + 3
+      - Increment x by 1
+   
+   b) If P ≥ 0:
+      - Choose South-East pixel (x+1, y-1)
+      - P = P + 2(x - y) + 5
+      - Increment x by 1, decrement y by 1
+
+4. <b>Symmetry:</b>
+   For each calculated point (x, y), plot all 8 symmetric points:
+   (x, y), (-x, y), (x, -y), (-x, -y), (y, x), (-y, x), (y, -x), (-y, -x)
+
+<b>Example: Draw circle with radius r = 5</b>
+
+Initial: x = 0, y = 5, P₀ = 1 - 5 = -4
+
+<table border='1' cellpadding='4'><tr><td>Step</td><td>P</td><td>Action</td><td>(x, y)</td><td>P next</td></tr>
+<tr><td>0</td><td>-4</td><td>Plot (0,5)</td><td>(0, 5)</td><td>-</td></tr>
+<tr><td>1</td><td>-4</td><td>P&lt;0, E</td><td>(1, 5)</td><td>-4+2(0)+3=-1</td></tr>
+<tr><td>2</td><td>-1</td><td>P&lt;0, E</td><td>(2, 5)</td><td>-1+2(1)+3=4</td></tr>
+<tr><td>3</td><td>4</td><td>P≥0, SE</td><td>(3, 4)</td><td>4+2(2-5)+5=3</td></tr>
+<tr><td>4</td><td>3</td><td>P≥0, SE</td><td>(4, 3)</td><td>3+2(3-4)+5=4</td></tr></table>
+
+At step 4, x = 4 and y = 3, so x ≥ y. Stop.
+
+<b>Points in first octant:</b> (0,5), (1,5), (2,5), (3,4), (4,3)
+
+<b>Using symmetry, all circle points are plotted.</b>
+
+<b>Advantages:</b>
+• Uses only integer arithmetic (fast)
+• No floating-point calculations needed
+• Efficient due to symmetry (8-way)
+• No square root or trigonometric functions
+
+<b>Comparison with DDA:</b>
+<table border='1' cellpadding='4'><tr><td>Aspect</td><td>Mid-Point</td><td>DDA</td></tr>
+<tr><td>Arithmetic</td><td>Integer only</td><td>Floating point</td></tr>
+<tr><td>Accuracy</td><td>Exact</td><td>Accumulated rounding errors</td></tr>
+<tr><td>Speed</td><td>Faster</td><td>Slower</td></tr>
+<tr><td>Complexity</td><td>More complex</td><td>Simpler</td></tr></table>""",
+            },
+            {
+                "num": "4",
+                "question": "Explain 3D basic geometric transformation with an example.",
+                "marks": "5",
+                "answer": """<b>3D Geometric Transformations:</b>
+3D transformations are used to modify the position, orientation, or size of 3D objects. They are represented using 4×4 homogeneous transformation matrices for uniform treatment of translation, rotation, and scaling.
+
+<b>1. 3D Translation:</b>
+Moves an object by (tx, ty, tz) along each axis.
+
+Transformation Matrix:
+<pre>
+| 1  0  0  tx |
+| 0  1  0  ty |
+| 0  0  1  tz |
+| 0  0  0  1  |
+</pre>
+
+A point P(x, y, z, 1) becomes P'(x+tx, y+ty, z+tz, 1)
+
+<b>2. 3D Scaling:</b>
+Changes the size of an object by factors (sx, sy, sz).
+
+Transformation Matrix:
+<pre>
+| sx  0   0   0 |
+| 0   sy  0   0 |
+| 0   0   sz  0 |
+| 0   0   0   1 |
+</pre>
+
+A point P(x, y, z, 1) becomes P'(x×sx, y×sy, z×sz, 1)
+
+If sx = sy = sz = s: Uniform scaling
+If not equal: Non-uniform scaling
+
+<b>3. 3D Rotation:</b>
+
+<b>a) Rotation about X-axis by angle θ:</b>
+<pre>
+| 1    0       0      0 |
+| 0   cosθ   -sinθ   0 |
+| 0   sinθ    cosθ   0 |
+| 0    0       0      1 |
+</pre>
+P'(x, y×cosθ - z×sinθ, y×sinθ + z×cosθ)
+
+<b>b) Rotation about Y-axis by angle θ:</b>
+<pre>
+| cosθ   0   sinθ   0 |
+|  0     1    0     0 |
+| -sinθ  0   cosθ   0 |
+|  0     0    0     1 |
+</pre>
+P'(x×cosθ + z×sinθ, y, -x×sinθ + z×cosθ)
+
+<b>c) Rotation about Z-axis by angle θ:</b>
+<pre>
+| cosθ  -sinθ   0   0 |
+| sinθ   cosθ   0   0 |
+|  0      0     1   0 |
+|  0      0     0   1 |
+</pre>
+P'(x×cosθ - y×sinθ, x×sinθ + y×cosθ, z)
+
+<b>Example: Translate a point P(2, 3, 4) by (5, -2, 3) and then scale by (2, 2, 2)</b>
+
+<b>Translation:</b>
+P' = T × P
+P' = (2+5, 3-2, 4+3) = (7, 1, 7)
+
+<b>Scaling:</b>
+P'' = S × P'
+P'' = (7×2, 1×2, 7×2) = (14, 2, 14)
+
+<b>Combined Transformation:</b>
+For multiple transformations, matrices are multiplied in reverse order of application.
+If we want to Scale then Translate: P' = T × S × P
+
+<pre>
+T × S = | 1  0  0  5 |   | 2  0  0  0 |   | 2  0  0  5 |
+        | 0  1  0 -2 | × | 0  2  0  0 | = | 0  2  0 -2 |
+        | 0  0  1  3 |   | 0  0  2  0 |   | 0  0  2  3 |
+        | 0  0  0  1 |   | 0  0  0  1 |   | 0  0  0  1 |
+</pre>
+
+P' = (2×2+5, 3×2-2, 4×2+3) = (9, 4, 11)
+
+<b>Properties:</b>
+• Matrix multiplication is associative but not commutative
+• Order of transformations matters (T then S ≠ S then T)
+• Homogeneous coordinates (4th coordinate = 1) allow translation to be expressed as matrix multiplication""",
+            },
+            {
+                "num": "5",
+                "question": "What is polygon clipping? Explain Sutherland Hodgman algorithm for polygon clipping.",
+                "marks": "5",
+                "answer": """<b>Polygon Clipping:</b>
+Polygon clipping is the process of removing parts of a polygon that lie outside a specified clipping region (usually a rectangular window). It is essential in computer graphics for displaying only the visible portion of objects and for operations like hidden surface removal.
+
+<b>Why Line Clipping is Insufficient:</b>
+Line clipping algorithms (Cohen-Sutherland, Liang-Barsky) only handle individual line segments. When clipping polygons, we need to maintain the polygon structure and generate new edges where the polygon crosses the clipping boundary.
+
+<b>Sutherland-Hodgman Polygon Clipping Algorithm:</b>
+This algorithm clips a polygon against a convex clipping window by processing each edge of the window sequentially. It clips the polygon against one edge at a time, producing a new vertex list after each edge.
+
+<b>Algorithm:</b>
+
+1. <b>Input:</b> List of polygon vertices (in order) and clipping window edges
+2. <b>Process each window edge:</b>
+   For each edge of the clipping window (left, right, top, bottom):
+   
+   a) Initialize output vertex list as empty
+   
+   b) For each polygon edge (from current vertex S to next vertex P):
+      
+      Case 1: <b>S inside, P inside</b>
+      - Add P to output list
+      
+      Case 2: <b>S inside, P outside</b>
+      - Add intersection point I to output list
+      
+      Case 3: <b>S outside, P outside</b>
+      - Add nothing
+      
+      Case 4: <b>S outside, P inside</b>
+      - Add intersection point I and P to output list
+   
+   c) Use output list as input for next window edge
+
+3. <b>Output:</b> Final clipped polygon vertices
+
+<b>Four Cases Illustrated:</b>
+<pre>
+Inside side        Outside side
+     S ────────● I  (Case 2: S in, P out → add I)
+     
+     S ────────→ P  (Case 1: S in, P in → add P)
+     
+  I ●←─────── P    (Case 4: S out, P in → add I, P)
+     
+     S ────────→ P  (Case 3: S out, P out → add nothing)
+              (both outside)
+</pre>
+
+<b>Example: Clip polygon against left edge (x = x_min)</b>
+
+For each edge SP of polygon:
+• S_inside = S.x ≥ x_min
+• P_inside = P.x ≥ x_min
+• Intersection I: y = S.y + (P.y - S.y) × (x_min - S.x) / (P.x - S.x)
+
+<b>Advantages:</b>
+• Simple and easy to implement
+• Works for any convex clipping window
+• Processes one edge at a time
+
+<b>Limitations:</b>
+• Only works for convex clipping regions
+• For concave polygons, may produce extra edges
+• Does not handle self-intersecting polygons
+
+<b>Comparison with Weiler-Atherton:</b>
+<table border='1' cellpadding='4'><tr><td>Aspect</td><td>Sutherland-Hodgman</td><td>Weiler-Atherton</td></tr>
+<tr><td>Window type</td><td>Convex only</td><td>Any (convex/concave)</td></tr>
+<tr><td>Polygon type</td><td>Any</td><td>Any</td></tr>
+<tr><td>Complexity</td><td>Simpler</td><td>More complex</td></tr>
+<tr><td>Output</td><td>Single polygon</td><td>Multiple polygons possible</td></tr></table>
+
+<b>Applications:</b> Viewport clipping in 2D graphics, shadow volume clipping, CSG operations""",
+            },
+            {
+                "num": "6",
+                "question": "Given a triangle with vertices A(2,3), B(5,5), C(4,3) by rotating 90 degree about the origin and then translating two unit in each direction. Use homogenous transformation matrix to find the new vertices of the triangle.",
+                "marks": "5",
+                "answer": """<b>Given:</b>
+• Triangle vertices: A(2,3), B(5,5), C(4,3)
+• Rotation: 90° about origin (counter-clockwise)
+• Translation: 2 units in x and 2 units in y
+
+<b>Step 1: Rotation Matrix (90° about origin, counter-clockwise)</b>
+<pre>
+R(90°) = | cos90°  -sin90°  0 |   | 0  -1  0 |
+         | sin90°   cos90°  0 | = | 1   0  0 |
+         |   0        0     1 |   | 0   0  1 |
+</pre>
+
+For counter-clockwise rotation by θ:
+x' = x×cosθ - y×sinθ
+y' = x×sinθ + y×cosθ
+
+At θ = 90°: cos90° = 0, sin90° = 1
+
+<b>Apply Rotation to each vertex:</b>
+
+A(2, 3):
+A'x = 2×0 - 3×1 = -3
+A'y = 2×1 + 3×0 = 2
+<b>A' = (-3, 2)</b>
+
+B(5, 5):
+B'x = 5×0 - 5×1 = -5
+B'y = 5×1 + 5×0 = 5
+<b>B' = (-5, 5)</b>
+
+C(4, 3):
+C'x = 4×0 - 3×1 = -3
+C'y = 4×1 + 3×0 = 4
+<b>C' = (-3, 4)</b>
+
+<b>Step 2: Translation Matrix (tx = 2, ty = 2)</b>
+<pre>
+T = | 1  0  2 |
+    | 0  1  2 |
+    | 0  0  1 |
+</pre>
+
+<b>Step 3: Combined Transformation</b>
+First rotate, then translate: M = T × R
+
+<pre>
+M = | 1  0  2 |   | 0  -1  0 |   | 0  -1  2 |
+    | 0  1  2 | × | 1   0  0 | = | 1   0  2 |
+    | 0  0  1 |   | 0   0  1 |   | 0   0  1 |
+</pre>
+
+<b>Step 4: Apply Combined Transformation</b>
+
+For A(2, 3):
+<pre>
+| 0  -1  2 |   | 2 |   | 0×2 + (-1)×3 + 2×1 |   | -1 |
+| 1   0  2 | × | 3 | = | 1×2 +   0×3  + 2×1 | = |  4 |
+| 0   0  1 |   | 1 |   | 0×2 +   0×3  + 1×1 |   |  1 |
+</pre>
+<b>A'' = (-1, 4)</b>
+
+For B(5, 5):
+<pre>
+| 0  -1  2 |   | 5 |   | 0×5 + (-1)×5 + 2 |   | -3 |
+| 1   0  2 | × | 5 | = | 1×5 +   0×5  + 2 | = |  7 |
+| 0   0  1 |   | 1 |   | 0×5 +   0×5  + 1 |   |  1 |
+</pre>
+<b>B'' = (-3, 7)</b>
+
+For C(4, 3):
+<pre>
+| 0  -1  2 |   | 4 |   | 0×4 + (-1)×3 + 2 |   | -1 |
+| 1   0  2 | × | 3 | = | 1×4 +   0×3  + 2 | = |  6 |
+| 0   0  1 |   | 1 |   | 0×4 +   0×3  + 1 |   |  1 |
+</pre>
+<b>C'' = (-1, 6)</b>
+
+<b>Final Answer:</b>
+<table border='1' cellpadding='4'><tr><td>Vertex</td><td>Original</td><td>After Rotation</td><td>After Translation</td></tr>
+<tr><td>A</td><td>(2, 3)</td><td>(-3, 2)</td><td>(-1, 4)</td></tr>
+<tr><td>B</td><td>(5, 5)</td><td>(-5, 5)</td><td>(-3, 7)</td></tr>
+<tr><td>C</td><td>(4, 3)</td><td>(-3, 4)</td><td>(-1, 6)</td></tr></table>
+
+<b>New vertices of the triangle: A''(-1, 4), B''(-3, 7), C''(-1, 6)</b>""",
+            },
+            {
+                "num": "7",
+                "question": "Explain the scan line algorithm for visible surface detection.",
+                "marks": "5",
+                "answer": """<b>Scan Line Algorithm for Visible Surface Detection:</b>
+The scan line algorithm is an image-space method for hidden surface removal. It processes the scene one horizontal scan line at a time, determining which surfaces are visible at each pixel along the scan line.
+
+<b>Basic Principle:</b>
+For each horizontal scan line across the viewport:
+1. Determine which polygons intersect the scan line
+2. Find intersection points of these polygons with the scan line
+3. Sort intersection points by x-coordinate
+4. Determine which segments are visible based on depth
+5. Draw visible segments with appropriate colors
+
+<b>Data Structures Used:</b>
+
+1. <b>Edge Table (ET):</b>
+   - Contains all non-horizontal edges of all polygons
+   - Grouped by the y-coordinate of the edge's lower endpoint
+   - Each entry stores: y_max, x_intersect (at lower y), inverse slope (1/m)
+
+2. <b>Active Edge Table (AET):</b>
+   - Contains edges that intersect the current scan line
+   - Updated as the algorithm moves from one scan line to the next
+   - Sorted by x-intersection coordinate
+
+<b>Algorithm Steps:</b>
+
+1. <b>Initialize:</b>
+   - Build Edge Table for all polygons
+   - Set y = minimum y-coordinate in the scene
+   - Initialize AET as empty
+
+2. <b>For each scan line from bottom to top:</b>
+   a) Move edges from ET[y] to AET (edges starting at this y)
+   b) Remove edges from AET where y = y_max (edges ending at this y)
+   c) Sort AET by x-intersection coordinate
+   d) Process pairs of x-intersections in AET:
+      - Between each pair of x-values, determine which polygon is visible
+      - Compare z-depths of polygons at sample points
+      - Draw visible polygon's color for that segment
+   e) Update x-intersections for next scan line:
+      - x_new = x_old + 1/m (increment by inverse slope)
+   f) Increment y by 1
+
+3. <b>Repeat until all scan lines are processed.</b>
+
+<b>Example with Two Polygons:</b>
+<pre>
+Polygon 1 (Blue): closer to viewer
+Polygon 2 (Red): farther from viewer
+
+Scan line y = 50:
+├─── ET adds edges that start at y=50
+├─── AET contains: Edge1 (P1), Edge2 (P1), Edge3 (P2), Edge4 (P2)
+├─── Sorted AET by x: x1, x2, x3, x4
+├─── Segments: [x1,x2]=P1 visible, [x2,x3]=neither, [x3,x4]=P2 visible
+└─── Draw blue from x1 to x2, red from x3 to x4
+</pre>
+
+<b>Handling Overlapping Polygons:</b>
+When multiple polygons cover the same pixel:
+1. Calculate z-depth of each polygon at that pixel
+2. The polygon with smallest z-value (closest to viewer) is visible
+3. If depths are equal, use additional criteria (arbitrary choice or painter's algorithm)
+
+<b>Advantages:</b>
+• Works at image resolution (pixel level)
+• Can handle complex overlapping polygons
+• Efficient for scenes with many polygons
+• Can be combined with shading (Gouraud, Phong)
+
+<b>Disadvantages:</b>
+• Computationally expensive per pixel
+• Requires maintaining and sorting edge tables
+• Aliasing problems at edges (jagged lines)
+• Difficult to handle transparent surfaces
+
+<b>Optimizations:</b>
+• Span coherence: Adjacent pixels often have same visibility
+• Edge coherence: x-intersections change predictably between scan lines
+• Depth coherence: Depth changes linearly across a polygon face
+
+<b>Comparison with Z-Buffer:</b>
+<table border='1' cellpadding='4'><tr><td>Aspect</td><td>Scan Line</td><td>Z-Buffer</td></tr>
+<tr><td>Space</td><td>Less memory (edge tables)</td><td>More memory (depth buffer)</td></tr>
+<tr><td>Speed</td><td>Faster for simple scenes</td><td>Consistent for complex scenes</td></tr>
+<tr><td>Implementation</td><td>More complex</td><td>Simpler</td></tr>
+<tr><td>Anti-aliasing</td><td>Easier</td><td>Harder</td></tr></table>""",
+            },
+            {
+                "num": "8",
+                "question": "Explain the architecture of VR system with necessary components.",
+                "marks": "5",
+                "answer": """<b>Virtual Reality (VR) System Architecture:</b>
+A VR system creates an immersive, computer-generated environment that simulates physical presence in a real or imagined world. The architecture consists of hardware components, software systems, and user interfaces working together.
+
+<b>1. Input Devices:</b>
+
+a) <b>Head-Mounted Display (HMD) Sensors:</b>
+   - Accelerometers, gyroscopes, magnetometers (IMU)
+   - Track head position and orientation (6 DOF)
+   - Examples: Oculus Rift, HTC Vive, PlayStation VR
+
+b) <b>Hand Controllers:</b>
+   - Track hand position and gestures
+   - Provide haptic feedback (vibrations)
+   - Examples: Oculus Touch, Valve Index controllers
+
+c) <b>Motion Tracking Systems:</b>
+   - Outside-in tracking: External base stations/lighthouses
+   - Inside-out tracking: Cameras on HMD itself
+   - Marker-based tracking: Reflective markers on user/body
+
+d) <b>Additional Input:</b>
+   - Eye tracking (foveated rendering)
+   - Voice recognition
+   - Body suits and treadmills
+   - Bio-sensors (heart rate, brain activity)
+
+<b>2. Output Devices:</b>
+
+a) <b>Head-Mounted Display (HMD):</b>
+   - Dual displays (one per eye) for stereoscopic 3D
+   - High refresh rate (90-120 Hz minimum to prevent motion sickness)
+   - Wide field of view (100-110° typical)
+   - Lens systems for focus and distortion correction
+
+b) <b>Audio Systems:</b>
+   - 3D spatial audio (head-related transfer function)
+   - Directional sound matching visual cues
+   - Noise cancellation for immersion
+
+c) <b>Haptic Feedback:</b>
+   - Vibrations in controllers and suits
+   - Force feedback devices
+   - Treadmills for walking sensation
+
+<b>3. Computing System:</b>
+
+a) <b>Rendering Engine:</b>
+   - Real-time 3D graphics rendering (OpenGL, Vulkan, DirectX)
+   - Foveated rendering (high quality where user looks)
+   - Asynchronous timewarp/spacewarp for smooth frame delivery
+
+b) <b>Tracking and Processing:</b>
+   - Sensor fusion algorithms (Kalman filters)
+   - Predictive tracking to reduce latency
+   - World reconstruction and spatial mapping
+
+c) <b>Application Logic:</b>
+   - Game engines: Unity, Unreal Engine
+   - Physics simulation
+   - AI for virtual characters and environments
+
+<b>4. Software Architecture Layers:</b>
+
+<pre>
++-----------------------------------+
+|    VR Applications & Content      |
++-----------------------------------+
+|    VR SDK / Game Engine           |
+|  (Unity XR, OpenXR, SteamVR)      |
++-----------------------------------+
+|    VR Runtime / Compositor        |
+|  (Oculus Runtime, SteamVR)        |
++-----------------------------------+
+|    Device Drivers & APIs          |
+|  (OpenVR, OpenXR, OSVR)           |
++-----------------------------------+
+|    Operating System               |
+|  (Windows, Linux, Android)        |
++-----------------------------------+
+|    Hardware (GPU, CPU, USB)       |
++-----------------------------------+
+</pre>
+
+<b>5. Key Technical Challenges:</b>
+
+a) <b>Latency:</b>
+   - Motion-to-photon latency must be < 20ms to prevent motion sickness
+   - Achieved through prediction, timewarp, high refresh rates
+
+b) <b>Resolution and Field of View:</b>
+   - Higher resolution reduces screen-door effect
+   - Wider FOV increases immersion
+   - Trade-off with GPU performance
+
+c) <b>Comfort:</b>
+   - Ergonomic HMD design
+   - Adjustable IPD (interpupillary distance)
+   - Weight distribution
+   - Ventilation to prevent fogging
+
+<b>6. Types of VR Systems:</b>
+
+• <b>Non-immersive (Desktop VR):</b> 3D environment on standard screen
+• <b>Semi-immersive:</b> Large projection systems, flight simulators
+• <b>Fully Immersive:</b> HMD with tracking, most common today
+• <b>Collaborative VR:</b> Multiple users in shared virtual space
+• <b>Augmented Reality (AR):</b> Overlays virtual objects on real world
+• <b>Mixed Reality (MR):</b> Interactive blend of real and virtual
+
+<b>Applications:</b> Gaming, education, medical training, architecture, military simulation, virtual tourism, therapy and rehabilitation""",
+            },
+        ]
+    },
+    {
+        "title": "Group C",
+        "instruction": "Attempt any TWO questions. [2×10=20]",
+        "questions": [
+            {
+                "num": "9",
+                "question": "Explain the working details of DDA line drawing algorithm? Digitize the line with endpoints (2,2) and (10,5) using Bresenham's line drawing algorithm.",
+                "marks": "5+5",
+                "answer": """<b>DDA (Digital Differential Analyzer) Line Drawing Algorithm:</b>
+DDA is a scan-conversion algorithm based on calculating either dx or dy using the line equation. It samples the line at unit intervals in one coordinate and calculates the corresponding integer value nearest to the line path for the other coordinate.
+
+<b>Algorithm:</b>
+1. Calculate dx = x2 - x1 and dy = y2 - y1
+2. Determine steps = max(|dx|, |dy|)
+3. Calculate x_increment = dx / steps
+4. Calculate y_increment = dy / steps
+5. Set x = x1, y = y1
+6. Plot pixel at (round(x), round(y))
+7. For i = 1 to steps:
+   - x = x + x_increment
+   - y = y + y_increment
+   - Plot pixel at (round(x), round(y))
+
+<b>Example: Line from (2, 2) to (10, 5)</b>
+dx = 10 - 2 = 8
+dy = 5 - 2 = 3
+steps = max(8, 3) = 8
+x_increment = 8/8 = 1.0
+y_increment = 3/8 = 0.375
+
+<table border='1' cellpadding='4'><tr><td>i</td><td>x</td><td>y</td><td>Plot (round)</td></tr>
+<tr><td>0</td><td>2.0</td><td>2.0</td><td>(2, 2)</td></tr>
+<tr><td>1</td><td>3.0</td><td>2.375</td><td>(3, 2)</td></tr>
+<tr><td>2</td><td>4.0</td><td>2.75</td><td>(4, 3)</td></tr>
+<tr><td>3</td><td>5.0</td><td>3.125</td><td>(5, 3)</td></tr>
+<tr><td>4</td><td>6.0</td><td>3.5</td><td>(6, 4)</td></tr>
+<tr><td>5</td><td>7.0</td><td>3.875</td><td>(7, 4)</td></tr>
+<tr><td>6</td><td>8.0</td><td>4.25</td><td>(8, 4)</td></tr>
+<tr><td>7</td><td>9.0</td><td>4.625</td><td>(9, 5)</td></tr>
+<tr><td>8</td><td>10.0</td><td>5.0</td><td>(10, 5)</td></tr></table>
+
+<b>Advantages:</b> Simple to implement
+<b>Disadvantages:</b> Floating-point operations, rounding errors, slower than Bresenham
+
+---
+
+<b>Bresenham's Line Drawing Algorithm:</b>
+Bresenham's algorithm uses only integer arithmetic to determine the next pixel position. It evaluates a decision parameter at each step to choose between two candidate pixels.
+
+<b>Given:</b> Endpoints (2, 2) and (10, 5)
+
+<b>Step 1: Calculate differences</b>
+dx = 10 - 2 = 8
+dy = 5 - 2 = 3
+
+<b>Step 2: Check slope</b>
+Since |dx| > |dy| and dx, dy > 0: 0 < slope < 1, we increment x by 1 at each step.
+
+<b>Step 3: Initialize decision parameter</b>
+P₀ = 2×dy - dx = 2×3 - 8 = 6 - 8 = -2
+
+<b>Step 4: Decision rules</b>
+• If P < 0: Next point = (x+1, y), P = P + 2×dy
+• If P ≥ 0: Next point = (x+1, y+1), P = P + 2×dy - 2×dx
+
+<b>Step 5: Iteration</b>
+
+<table border='1' cellpadding='4'><tr><td>Step</td><td>(x, y)</td><td>P</td><td>Decision</td><td>Next P</td></tr>
+<tr><td>0</td><td>(2, 2)</td><td>-2</td><td>P&lt;0, E</td><td>-2+6=4</td></tr>
+<tr><td>1</td><td>(3, 2)</td><td>4</td><td>P≥0, NE</td><td>4+6-16=-6</td></tr>
+<tr><td>2</td><td>(4, 3)</td><td>-6</td><td>P&lt;0, E</td><td>-6+6=0</td></tr>
+<tr><td>3</td><td>(5, 3)</td><td>0</td><td>P≥0, NE</td><td>0+6-16=-10</td></tr>
+<tr><td>4</td><td>(6, 4)</td><td>-10</td><td>P&lt;0, E</td><td>-10+6=-4</td></tr>
+<tr><td>5</td><td>(7, 4)</td><td>-4</td><td>P&lt;0, E</td><td>-4+6=2</td></tr>
+<tr><td>6</td><td>(8, 4)</td><td>2</td><td>P≥0, NE</td><td>2+6-16=-8</td></tr>
+<tr><td>7</td><td>(9, 5)</td><td>-8</td><td>P&lt;0, E</td><td>-8+6=-2</td></tr>
+<tr><td>8</td><td>(10, 5)</td><td>-2</td><td>End</td><td>-</td></tr></table>
+
+<b>Pixels plotted by Bresenham:</b>
+(2, 2), (3, 2), (4, 3), (5, 3), (6, 4), (7, 4), (8, 4), (9, 5), (10, 5)
+
+<b>Note:</b> Both DDA and Bresenham produce the same set of pixels for this line, but Bresenham uses only integer arithmetic, making it faster.""",
+            },
+            {
+                "num": "10",
+                "question": "Write the difference between object space method and image space method. Explain Z-buffer algorithm for visible surface detection.",
+                "marks": "5+5",
+                "answer": """<b>Object Space vs Image Space Methods:</b>
+
+<table border='1' cellpadding='4'><tr><td>Aspect</td><td>Object Space Method</td><td>Image Space Method</td></tr>
+<tr><td>Processing Level</td><td>Works with 3D object coordinates</td><td>Works with 2D pixel coordinates</td></tr>
+<tr><td>Comparison</td><td>Compares objects with each other</td><td>Compares pixels depth values</td></tr>
+<tr><td>Precision</td><td>Exact (geometric calculations)</td><td>Approximate (pixel resolution)</td></tr>
+<tr><td>Complexity</td><td>O(n²) where n = number of objects</td><td>O(n×p) where p = number of pixels</td></tr>
+<tr><td>Output</td><td>Determines visible surfaces directly</td><td>Determines visible pixels</td></tr>
+<tr><td>Anti-aliasing</td><td>Difficult</td><td>Easier</td></tr>
+<tr><td>Memory</td><td>Less memory required</td><td>More memory (depth buffer)</td></tr>
+<tr><td>Examples</td><td>Back-face removal, BSP trees, ray casting</td><td>Z-buffer, scan line, ray tracing</td></tr>
+<tr><td>Scene Size</td><td>Better for fewer objects</td><td>Better for complex scenes</td></tr>
+<tr><td>Accuracy</td><td>Independent of resolution</td><td>Limited by image resolution</td></tr></table>
+
+<b>Object Space Methods:</b>
+• <b>Back-Face Removal:</b> Eliminate polygons facing away from viewer
+• <b>Ray Casting:</b> Cast rays from eye through pixels, find first intersection
+• <b>Depth Sorting (Painter's Algorithm):</b> Sort objects by depth, paint back to front
+
+<b>Image Space Methods:</b>
+• <b>Z-Buffer (Depth Buffer):</b> Store depth at each pixel
+• <b>Scan Line:</b> Process one scan line at a time
+• <b>A-Buffer:</b> Anti-aliased version of Z-buffer
+
+---
+
+<b>Z-Buffer Algorithm (Depth Buffer Algorithm):</b>
+
+<b>Principle:</b>
+The Z-buffer algorithm maintains two buffers:
+1. <b>Frame Buffer:</b> Stores color/intensity of each pixel
+2. <b>Z-Buffer (Depth Buffer):</b> Stores z-coordinate (depth) of visible surface at each pixel
+
+<b>Algorithm:</b>
+
+1. <b>Initialize:</b>
+   - Frame buffer: Set to background color
+   - Z-buffer: Set to maximum depth value (farthest from viewer)
+
+2. <b>For each polygon in the scene:</b>
+   a) For each pixel (x, y) covered by the polygon:
+      
+      i. Calculate depth z of polygon at (x, y)
+         - For a plane ax + by + cz + d = 0:
+         - z = -(ax + by + d) / c
+      
+      ii. If z < Z-buffer[x, y]:
+          - Z-buffer[x, y] = z
+          - Frame buffer[x, y] = polygon color at (x, y)
+
+3. <b>Output:</b> Frame buffer contains the final image
+
+<b>Depth Calculation Optimization:</b>
+Instead of calculating z for each pixel from scratch:
+• For a scan line: z(x+1, y) = z(x, y) - a/c
+• For next scan line: z(x, y+1) = z(x, y) - b/c
+This incremental calculation is very efficient.
+
+<b>Example:</b>
+Two polygons at a pixel:
+- Polygon A: z = 5 (farther)
+- Polygon B: z = 2 (closer)
+
+Processing A first:
+Z-buffer = 5, Frame buffer = Color_A
+
+Processing B:
+z = 2 < Z-buffer (5)
+Z-buffer = 2, Frame buffer = Color_B
+
+Final pixel shows Color_B (closer polygon)
+
+<b>Advantages:</b>
+• Simple to implement in hardware
+• Handles any polygon complexity
+• Works for overlapping/intersecting polygons
+• Linear time complexity O(number of pixels × polygons)
+• Can be parallelized efficiently
+
+<b>Disadvantages:</b>
+• Requires large memory for Z-buffer (e.g., 1920×1080 × 4 bytes ≈ 8 MB)
+• Limited precision (z-fighting when depths are very close)
+• Cannot handle transparency (requires multiple passes or A-buffer)
+• Wastes processing on hidden surfaces
+• Aliasing at polygon edges
+
+<b>Variants:</b>
+• <b>W-Buffer:</b> Uses 1/z for better precision distribution
+• <b>Hierarchical Z-Buffer:</b> Uses coarse Z values to reject blocks of pixels early
+• <b>Reverse Z:</b> Maps near plane to 1.0 and far plane to 0.0 for better precision""",
+            },
+            {
+                "num": "11",
+                "question": "Derive the formula for windows to viewport transformation. Given a window bordered by (0,0) at the lower-left and (4,4) at the upper right. Similarly, a viewport bordered by (0,0) at the lower-left and (2,2) at the upper right. If a window at position (2,4) is mapped into the viewport. What will be the position of viewport to maintain same relative placement as in window?",
+                "marks": "5+5",
+                "answer": """<b>Window to Viewport Transformation:</b>
+
+The window defines what portion of the world coordinate system is visible. The viewport defines where on the display device the window contents appear. The transformation maps coordinates from the window to the viewport while maintaining relative positions.
+
+<b>Derivation:</b>
+
+Let:
+• Window: (x_wmin, y_wmin) to (x_wmax, y_wmax)
+• Viewport: (x_vmin, y_vmin) to (x_vmax, y_vmax)
+• Point in window: (x_w, y_w)
+• Corresponding point in viewport: (x_v, y_v)
+
+<b>For X-coordinate:</b>
+We want the relative position of x_w within the window to equal the relative position of x_v within the viewport:
+
+(x_w - x_wmin) / (x_wmax - x_wmin) = (x_v - x_vmin) / (x_vmax - x_vmin)
+
+Solving for x_v:
+<b>x_v = x_vmin + (x_w - x_wmin) × (x_vmax - x_vmin) / (x_wmax - x_wmin)</b>
+
+<b>For Y-coordinate:</b>
+Similarly:
+(y_w - y_wmin) / (y_wmax - y_wmin) = (y_v - y_vmin) / (y_vmax - y_vmin)
+
+Solving for y_v:
+<b>y_v = y_vmin + (y_w - y_wmin) × (y_vmax - y_vmin) / (y_wmax - y_wmin)</b>
+
+<b>General Formula:</b>
+<pre>
+x_v = x_vmin + (x_w - x_wmin) × Sx
+y_v = y_vmin + (y_w - y_wmin) × Sy
+</pre>
+
+Where:
+• Sx = (x_vmax - x_vmin) / (x_wmax - x_wmin)  [Scaling factor for x]
+• Sy = (y_vmax - y_vmin) / (y_wmax - y_wmin)  [Scaling factor for y]
+
+<b>Matrix Form (including normalization):</b>
+<pre>
+| x_v |   | Sx   0   tx |   | x_w |
+| y_v | = | 0   Sy   ty | × | y_w |
+|  1  |   | 0    0    1 |   |  1  |
+</pre>
+
+Where:
+• tx = x_vmin - x_wmin × Sx
+• ty = y_vmin - y_wmin × Sy
+
+---
+
+<b>Given Problem:</b>
+
+<b>Window:</b>
+• Lower-left: (x_wmin, y_wmin) = (0, 0)
+• Upper-right: (x_wmax, y_wmax) = (4, 4)
+
+<b>Viewport:</b>
+• Lower-left: (x_vmin, y_vmin) = (0, 0)
+• Upper-right: (x_vmax, y_vmax) = (2, 2)
+
+<b>Point in window:</b> (x_w, y_w) = (2, 4)
+
+<b>Step 1: Calculate Scaling Factors</b>
+Sx = (x_vmax - x_vmin) / (x_wmax - x_wmin) = (2 - 0) / (4 - 0) = 2/4 = <b>0.5</b>
+Sy = (y_vmax - y_vmin) / (y_wmax - y_wmin) = (2 - 0) / (4 - 0) = 2/4 = <b>0.5</b>
+
+<b>Step 2: Calculate Translation Terms</b>
+tx = x_vmin - x_wmin × Sx = 0 - 0 × 0.5 = <b>0</b>
+ty = y_vmin - y_wmin × Sy = 0 - 0 × 0.5 = <b>0</b>
+
+<b>Step 3: Apply Transformation</b>
+x_v = x_vmin + (x_w - x_wmin) × Sx
+x_v = 0 + (2 - 0) × 0.5 = 2 × 0.5 = <b>1</b>
+
+y_v = y_vmin + (y_w - y_wmin) × Sy
+y_v = 0 + (4 - 0) × 0.5 = 4 × 0.5 = <b>2</b>
+
+<b>Verification of Relative Placement:</b>
+• In window: (2, 4) is at 50% of x-range (2/4) and 100% of y-range (4/4)
+• In viewport: (1, 2) is at 50% of x-range (1/2) and 100% of y-range (2/2)
+
+The relative positions are maintained.
+
+<b>Final Answer:</b>
+The point (2, 4) in the window maps to <b>(1, 2)</b> in the viewport.
+
+<b>Visualization:</b>
+<pre>
+Window (4×4)              Viewport (2×2)
+
+y                          y
+↑                          ↑
+4 ━━━━━ (2,4)●            2 ━━━━━━●(1,2)
+3 ┃                        1 ┃
+2 ┃                        0 ━━━━━
+1 ┃                        
+0 ━━━━━→ x                 → x
+   0 1 2 3 4                  0 1 2
+</pre>""",
+            },
+        ]
+    }
+]
+
+
+if __name__ == "__main__":
+    # Generate Semester 5 - 2020 answer sheets
+    generate_answer_sheet(
+        "CACS301", "management-information-systems", "MIS and E-Business",
+        2020, "semester-5", MIS_QUESTIONS
+    )
+    generate_answer_sheet(
+        "CACS302", "dotnet-technology", "DotNet Technology",
+        2020, "semester-5", DOTNET_QUESTIONS
+    )
+    generate_answer_sheet(
+        "CACS303", "computer-networking", "Computer Networking",
+        2020, "semester-5", NETWORKING_QUESTIONS
+    )
+    generate_answer_sheet(
+        "CAMG304", "computer-graphics-animation", "Computer Graphics and Animation",
+        2020, "semester-5", GRAPHICS_QUESTIONS
+    )
