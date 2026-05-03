@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   distDir: 'dist',
+  basePath: '/QBank',
   images: {
     unoptimized: true,
   },

@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -15,11 +15,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -33,18 +35,35 @@ jobs:
       - name: Build static site
         run: npm run build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
+      - name: Deploy to gh-pages (preserve PDFs)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          # Fetch existing gh-pages to preserve PDFs
+          git fetch origin gh-pages || echo "gh-pages does not exist yet"
+
+          # Save new build to temp
+          mkdir -p /tmp/new-dist
+          cp -r dist/* /tmp/new-dist/
+
+          # Checkout or create gh-pages
+          if git show-ref --quiet refs/remotes/origin/gh-pages; then
+            git checkout gh-pages
+            # Remove everything except .git and pdfs/
+            find . -maxdepth 1 -not -path './.git*' -not -path './pdfs*' -not -path '.' -exec rm -rf {} +
+          else
+            git checkout --orphan gh-pages
+            git rm -rf .
+          fi
+
+          # Copy new build (HTML, JS, CSS, etc. — no PDFs because public/pdfs is gitignored)
+          cp -r /tmp/new-dist/* .
+
+          # Ensure .nojekyll exists so _next folder is served
+          touch .nojekyll
+
+          # Commit and push
+          git add -A
+          git commit -m "Deploy to GitHub Pages - $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "No changes to commit"
+          git push origin gh-pages --force
