@@ -1,6 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -11,8 +12,72 @@ import {
   Clock,
   Award,
   Lock,
+  X,
+  Eye,
 } from "lucide-react";
 import type { FacultyManifest, Semester, Subject, Paper } from "@/lib/data";
+import { BASE_PATH } from "@/lib/config";
+
+function PdfViewer({
+  url,
+  title,
+  onClose,
+}: {
+  url: string;
+  title: string;
+  onClose: () => void;
+}) {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 z-50 flex flex-col bg-slate-900/80 backdrop-blur-sm"
+      onClick={onClose}
+    >
+      {/* Top bar */}
+      <div
+        className="flex items-center justify-between px-4 py-3 bg-white border-b border-slate-200 shadow-sm"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="flex items-center gap-3 min-w-0">
+          <FileText className="w-5 h-5 text-sky-500 shrink-0" />
+          <h2 className="text-sm font-semibold text-slate-800 truncate">
+            {title}
+          </h2>
+        </div>
+        <div className="flex items-center gap-2 shrink-0">
+          <a
+            href={url}
+            download
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-50 text-sky-600 text-xs font-medium hover:bg-sky-100 transition-colors"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <Download className="w-3.5 h-3.5" />
+            Download
+          </a>
+          <button
+            onClick={onClose}
+            className="inline-flex items-center justify-center w-8 h-8 rounded-lg hover:bg-slate-100 transition-colors"
+            aria-label="Close viewer"
+          >
+            <X className="w-4 h-4 text-slate-500" />
+          </button>
+        </div>
+      </div>
+
+      {/* PDF iframe */}
+      <div className="flex-1 relative">
+        <iframe
+          src={url}
+          title={title}
+          className="absolute inset-0 w-full h-full bg-white"
+          onClick={(e) => e.stopPropagation()}
+        />
+      </div>
+    </motion.div>
+  );
+}
 
 export function YearPageClient({
   faculty,
@@ -25,11 +90,25 @@ export function YearPageClient({
   subject: Subject;
   paper: Paper;
 }) {
-  const questionPdf = `/pdfs/${faculty.slug}/${semester.slug}/${subject.slug}/questions/${subject.code}-${paper.year}.pdf`;
-  const answerPdf = `/pdfs/${faculty.slug}/${semester.slug}/${subject.slug}/answers/${subject.code}-${paper.year}-answers.pdf`;
+  const questionPdf = `${BASE_PATH}/pdfs/${faculty.slug}/${semester.slug}/${subject.slug}/questions/${subject.code}-${paper.year}.pdf`;
+  const answerPdf = `${BASE_PATH}/pdfs/${faculty.slug}/${semester.slug}/${subject.slug}/answers/${subject.code}-${paper.year}-answers.pdf`;
+
+  const [viewer, setViewer] = useState<
+    { url: string; title: string } | null
+  >(null);
 
   return (
     <>
+      <AnimatePresence>
+        {viewer && (
+          <PdfViewer
+            url={viewer.url}
+            title={viewer.title}
+            onClose={() => setViewer(null)}
+          />
+        )}
+      </AnimatePresence>
+
       {/* Breadcrumb */}
       <motion.div
         initial={{ opacity: 0, y: 10 }}
@@ -83,32 +162,46 @@ export function YearPageClient({
             {/* Description */}
             <p className="text-slate-500 text-sm leading-relaxed mb-8">
               This question paper contains Group A (MCQs), Group B (Short
-              Answer), and Group C (Long Answer) questions. Download the
-              question paper PDF to practice, or get the comprehensive answer
-              sheet with detailed solutions, code examples, and diagrams.
+              Answer), and Group C (Long Answer) questions. View the question
+              paper PDF directly in your browser, or download it for offline
+              study. The answer sheet includes detailed solutions, code
+              examples, and diagrams.
             </p>
 
-            {/* Download Buttons */}
+            {/* Action Buttons */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {paper.hasQuestions ? (
-                <a
-                  href={questionPdf}
-                  download
-                  className="group flex items-center gap-4 p-5 rounded-2xl bg-sky-50 border border-sky-100 hover:bg-sky-100 hover:border-sky-200 transition-all duration-200"
+                <button
+                  onClick={() =>
+                    setViewer({
+                      url: questionPdf,
+                      title: `${subject.name} ${paper.year} — Question Paper`,
+                    })
+                  }
+                  className="group flex items-center gap-4 p-5 rounded-2xl bg-sky-50 border border-sky-100 hover:bg-sky-100 hover:border-sky-200 transition-all duration-200 text-left"
                 >
                   <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-white text-sky-500 shadow-sm">
-                    <FileText className="w-6 h-6" />
+                    <Eye className="w-6 h-6" />
                   </div>
                   <div className="flex-1">
                     <h3 className="text-sm font-semibold text-slate-800">
-                      Question Paper
+                      View Question Paper
                     </h3>
                     <p className="text-xs text-slate-400 mt-0.5">
-                      PDF &middot; Past exam questions
+                      Open in browser viewer
                     </p>
                   </div>
-                  <Download className="w-5 h-5 text-sky-400 group-hover:text-sky-600 group-hover:translate-y-0.5 transition-all" />
-                </a>
+                  <Download
+                    className="w-5 h-5 text-sky-400 group-hover:text-sky-600 group-hover:translate-y-0.5 transition-all"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      const a = document.createElement("a");
+                      a.href = questionPdf;
+                      a.download = "";
+                      a.click();
+                    }}
+                  />
+                </button>
               ) : (
                 <div className="flex items-center gap-4 p-5 rounded-2xl bg-slate-50 border border-slate-100 opacity-70">
                   <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-white text-slate-400 shadow-sm">
@@ -126,24 +219,37 @@ export function YearPageClient({
               )}
 
               {paper.hasAnswers ? (
-                <a
-                  href={answerPdf}
-                  download
-                  className="group flex items-center gap-4 p-5 rounded-2xl bg-leaf-50 border border-leaf-100 hover:bg-leaf-100 hover:border-leaf-200 transition-all duration-200"
+                <button
+                  onClick={() =>
+                    setViewer({
+                      url: answerPdf,
+                      title: `${subject.name} ${paper.year} — Answer Sheet`,
+                    })
+                  }
+                  className="group flex items-center gap-4 p-5 rounded-2xl bg-leaf-50 border border-leaf-100 hover:bg-leaf-100 hover:border-leaf-200 transition-all duration-200 text-left"
                 >
                   <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-white text-leaf-500 shadow-sm">
-                    <CheckCircle className="w-6 h-6" />
+                    <Eye className="w-6 h-6" />
                   </div>
                   <div className="flex-1">
                     <h3 className="text-sm font-semibold text-slate-800">
-                      Answer Sheet
+                      View Answer Sheet
                     </h3>
                     <p className="text-xs text-slate-400 mt-0.5">
-                      PDF &middot; With solutions & diagrams
+                      Open in browser viewer
                     </p>
                   </div>
-                  <Download className="w-5 h-5 text-leaf-400 group-hover:text-leaf-600 group-hover:translate-y-0.5 transition-all" />
-                </a>
+                  <Download
+                    className="w-5 h-5 text-leaf-400 group-hover:text-leaf-600 group-hover:translate-y-0.5 transition-all"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      const a = document.createElement("a");
+                      a.href = answerPdf;
+                      a.download = "";
+                      a.click();
+                    }}
+                  />
+                </button>
               ) : (
                 <div className="flex items-center gap-4 p-5 rounded-2xl bg-slate-50 border border-slate-100 opacity-70">
                   <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-white text-slate-400 shadow-sm">
