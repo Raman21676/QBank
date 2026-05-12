@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raman21676.github.io/QBank/sitemap.xml
